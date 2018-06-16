@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="foobar"
+		module="foobar"
+		revision="0.0.1-SNAPSHOT"
+		extra-scalaVersion="2.11"
+		extra-sbtVersion="0.13"
+		conf="runtime-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20180610202621"/>
+	<dependencies>
+		<module organisation="com.sksamuel.scrimage" name="scrimage-filters_2.11">
+			<revision name="2.1.0" status="release" pubdate="20150825235344" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sksamuel/scrimage" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="26">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3771" time="0" location="/home/piotr/.ivy2/cache/com.sksamuel.scrimage/scrimage-filters_2.11/ivy-2.1.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/sksamuel/scrimage/scrimage-filters_2.11/2.1.0/scrimage-filters_2.11-2.1.0.pom"/>
+				<caller organisation="foobar" name="foobar" conf="compile, runtime-internal, runtime, optional" rev="2.1.0" rev-constraint-default="2.1.0" rev-constraint-dynamic="2.1.0" callerrev="0.0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scrimage-filters_2.11" type="jar" ext="jar" status="no" details="" size="6785330" time="0" location="/home/piotr/.ivy2/cache/com.sksamuel.scrimage/scrimage-filters_2.11/jars/scrimage-filters_2.11-2.1.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/sksamuel/scrimage/scrimage-filters_2.11/2.1.0/scrimage-filters_2.11-2.1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sksamuel.scrimage" name="scrimage-io-extra_2.11">
+			<revision name="2.1.0" status="release" pubdate="20150825234715" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sksamuel/scrimage" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="13">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5589" time="0" location="/home/piotr/.ivy2/cache/com.sksamuel.scrimage/scrimage-io-extra_2.11/ivy-2.1.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/sksamuel/scrimage/scrimage-io-extra_2.11/2.1.0/scrimage-io-extra_2.11-2.1.0.pom"/>
+				<caller organisation="foobar" name="foobar" conf="compile, runtime-internal, runtime, optional" rev="2.1.0" rev-constraint-default="2.1.0" rev-constraint-dynamic="2.1.0" callerrev="0.0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scrimage-io-extra_2.11" type="jar" ext="jar" status="no" details="" size="7866" time="0" location="/home/piotr/.ivy2/cache/com.sksamuel.scrimage/scrimage-io-extra_2.11/jars/scrimage-io-extra_2.11-2.1.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/sksamuel/scrimage/scrimage-io-extra_2.11/2.1.0/scrimage-io-extra_2.11-2.1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twelvemonkeys.imageio" name="imageio-thumbsdb">
+			<revision name="3.1.2" status="release" pubdate="20150814123558" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="25">
+				<metadata-artifact status="successful" details="" size="1022" time="126" location="/home/piotr/.ivy2/cache/com.twelvemonkeys.imageio/imageio-thumbsdb/ivy-3.1.2.xml" searched="true" original-local-location="/home/piotr/.ivy2/cache/com.twelvemonkeys.imageio/imageio-thumbsdb/ivy-3.1.2.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-thumbsdb/3.1.2/imageio-thumbsdb-3.1.2.pom"/>
+				<caller organisation="com.sksamuel.scrimage" name="scrimage-io-extra_2.11" conf="default, compile, runtime, master" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="2.1.0"/>
+				<artifacts>
+					<artifact name="imageio-thumbsdb" type="jar" ext="jar" status="no" details="" size="17932" time="0" location="/home/piotr/.ivy2/cache/com.twelvemonkeys.imageio/imageio-thumbsdb/jars/imageio-thumbsdb-3.1.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-thumbsdb/3.1.2/imageio-thumbsdb-3.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twelvemonkeys.imageio" name="imageio-tga">
+			<revision name="3.1.2" status="release" pubdate="20150814123537" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="24">
+				<metadata-artifact status="successful" details="" size="1006" time="151" location="/home/piotr/.ivy2/cache/com.twelvemonkeys.imageio/imageio-tga/ivy-3.1.2.xml" searched="true" original-local-location="/home/piotr/.ivy2/cache/com.twelvemonkeys.imageio/imageio-tga/ivy-3.1.2.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-tga/3.1.2/imageio-tga-3.1.2.pom"/>
+				<caller organisation="com.sksamuel.scrimage" name="scrimage-io-extra_2.11" conf="default, compile, runtime, master" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="2.1.0"/>
+				<artifacts>
+					<artifact name="imageio-tga" type="jar" ext="jar" status="no" details="" size="15871" time="0" location="/home/piotr/.ivy2/cache/com.twelvemonkeys.imageio/imageio-tga/jars/imageio-tga-3.1.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-tga/3.1.2/imageio-tga-3.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twelvemonkeys.imageio" name="imageio-tiff">
+			<revision name="3.1.2" status="release" pubdate="20150814123616" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="23">
+				<metadata-artifact status="successful" details="" size="1171" time="134" location="/home/piotr/.ivy2/cache/com.twelvemonkeys.imageio/imageio-tiff/ivy-3.1.2.xml" searched="true" original-local-location="/home/piotr/.ivy2/cache/com.twelvemonkeys.imageio/imageio-tiff/ivy-3.1.2.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-tiff/3.1.2/imageio-tiff-3.1.2.pom"/>
+				<caller organisation="com.sksamuel.scrimage" name="scrimage-io-extra_2.11" conf="default, compile, runtime, master" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="2.1.0"/>
+				<artifacts>
+					<artifact name="imageio-tiff" type="jar" ext="jar" status="no" details="" size="61984" time="0" location="/home/piotr/.ivy2/cache/com.twelvemonkeys.imageio/imageio-tiff/jars/imageio-tiff-3.1.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-tiff/3.1.2/imageio-tiff-3.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twelvemonkeys.imageio" name="imageio-sgi">
+			<revision name="3.1.2" status="release" pubdate="20150814123513" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="22">
+				<metadata-artifact status="successful" details="" size="1008" time="132" location="/home/piotr/.ivy2/cache/com.twelvemonkeys.imageio/imageio-sgi/ivy-3.1.2.xml" searched="true" original-local-location="/home/piotr/.ivy2/cache/com.twelvemonkeys.imageio/imageio-sgi/ivy-3.1.2.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-sgi/3.1.2/imageio-sgi-3.1.2.pom"/>
+				<caller organisation="com.sksamuel.scrimage" name="scrimage-io-extra_2.11" conf="default, compile, runtime, master" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="2.1.0"/>
+				<artifacts>
+					<artifact name="imageio-sgi" type="jar" ext="jar" status="no" details="" size="14442" time="0" location="/home/piotr/.ivy2/cache/com.twelvemonkeys.imageio/imageio-sgi/jars/imageio-sgi-3.1.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-sgi/3.1.2/imageio-sgi-3.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twelvemonkeys.imageio" name="imageio-psd">
+			<revision name="3.1.2" status="release" pubdate="20150814123422" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="21">
+				<metadata-artifact status="successful" details="" size="1158" time="124" location="/home/piotr/.ivy2/cache/com.twelvemonkeys.imageio/imageio-psd/ivy-3.1.2.xml" searched="true" original-local-location="/home/piotr/.ivy2/cache/com.twelvemonkeys.imageio/imageio-psd/ivy-3.1.2.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-psd/3.1.2/imageio-psd-3.1.2.pom"/>
+				<caller organisation="com.sksamuel.scrimage" name="scrimage-io-extra_2.11" conf="default, compile, runtime, master" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="2.1.0"/>
+				<artifacts>
+					<artifact name="imageio-psd" type="jar" ext="jar" status="no" details="" size="67905" time="0" location="/home/piotr/.ivy2/cache/com.twelvemonkeys.imageio/imageio-psd/jars/imageio-psd-3.1.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-psd/3.1.2/imageio-psd-3.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twelvemonkeys.imageio" name="imageio-pnm">
+			<revision name="3.1.2" status="release" pubdate="20150814123356" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="20">
+				<metadata-artifact status="successful" details="" size="1003" time="128" location="/home/piotr/.ivy2/cache/com.twelvemonkeys.imageio/imageio-pnm/ivy-3.1.2.xml" searched="true" original-local-location="/home/piotr/.ivy2/cache/com.twelvemonkeys.imageio/imageio-pnm/ivy-3.1.2.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-pnm/3.1.2/imageio-pnm-3.1.2.pom"/>
+				<caller organisation="com.sksamuel.scrimage" name="scrimage-io-extra_2.11" conf="default, compile, runtime, master" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="2.1.0"/>
+				<artifacts>
+					<artifact name="imageio-pnm" type="jar" ext="jar" status="no" details="" size="34912" time="0" location="/home/piotr/.ivy2/cache/com.twelvemonkeys.imageio/imageio-pnm/jars/imageio-pnm-3.1.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-pnm/3.1.2/imageio-pnm-3.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twelvemonkeys.imageio" name="imageio-pdf">
+			<revision name="3.1.2" status="release" pubdate="20150814123303" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="19">
+				<metadata-artifact status="successful" details="" size="1011" time="129" location="/home/piotr/.ivy2/cache/com.twelvemonkeys.imageio/imageio-pdf/ivy-3.1.2.xml" searched="true" original-local-location="/home/piotr/.ivy2/cache/com.twelvemonkeys.imageio/imageio-pdf/ivy-3.1.2.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-pdf/3.1.2/imageio-pdf-3.1.2.pom"/>
+				<caller organisation="com.sksamuel.scrimage" name="scrimage-io-extra_2.11" conf="default, compile, runtime, master" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="2.1.0"/>
+				<artifacts>
+					<artifact name="imageio-pdf" type="jar" ext="jar" status="no" details="" size="1787" time="0" location="/home/piotr/.ivy2/cache/com.twelvemonkeys.imageio/imageio-pdf/jars/imageio-pdf-3.1.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-pdf/3.1.2/imageio-pdf-3.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twelvemonkeys.imageio" name="imageio-pict">
+			<revision name="3.1.2" status="release" pubdate="20150814123322" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="18">
+				<metadata-artifact status="successful" details="" size="1000" time="132" location="/home/piotr/.ivy2/cache/com.twelvemonkeys.imageio/imageio-pict/ivy-3.1.2.xml" searched="true" original-local-location="/home/piotr/.ivy2/cache/com.twelvemonkeys.imageio/imageio-pict/ivy-3.1.2.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-pict/3.1.2/imageio-pict-3.1.2.pom"/>
+				<caller organisation="com.sksamuel.scrimage" name="scrimage-io-extra_2.11" conf="default, compile, runtime, master" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="2.1.0"/>
+				<artifacts>
+					<artifact name="imageio-pict" type="jar" ext="jar" status="no" details="" size="63421" time="0" location="/home/piotr/.ivy2/cache/com.twelvemonkeys.imageio/imageio-pict/jars/imageio-pict-3.1.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-pict/3.1.2/imageio-pict-3.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twelvemonkeys.imageio" name="imageio-pcx">
+			<revision name="3.1.2" status="release" pubdate="20150814123247" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="17">
+				<metadata-artifact status="successful" details="" size="1002" time="156" location="/home/piotr/.ivy2/cache/com.twelvemonkeys.imageio/imageio-pcx/ivy-3.1.2.xml" searched="true" original-local-location="/home/piotr/.ivy2/cache/com.twelvemonkeys.imageio/imageio-pcx/ivy-3.1.2.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-pcx/3.1.2/imageio-pcx-3.1.2.pom"/>
+				<caller organisation="com.sksamuel.scrimage" name="scrimage-io-extra_2.11" conf="default, compile, runtime, master" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="2.1.0"/>
+				<artifacts>
+					<artifact name="imageio-pcx" type="jar" ext="jar" status="no" details="" size="24885" time="0" location="/home/piotr/.ivy2/cache/com.twelvemonkeys.imageio/imageio-pcx/jars/imageio-pcx-3.1.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-pcx/3.1.2/imageio-pcx-3.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twelvemonkeys.imageio" name="imageio-iff">
+			<revision name="3.1.2" status="release" pubdate="20150814123114" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="16">
+				<metadata-artifact status="successful" details="" size="1059" time="137" location="/home/piotr/.ivy2/cache/com.twelvemonkeys.imageio/imageio-iff/ivy-3.1.2.xml" searched="true" original-local-location="/home/piotr/.ivy2/cache/com.twelvemonkeys.imageio/imageio-iff/ivy-3.1.2.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-iff/3.1.2/imageio-iff-3.1.2.pom"/>
+				<caller organisation="com.sksamuel.scrimage" name="scrimage-io-extra_2.11" conf="default, compile, runtime, master" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="2.1.0"/>
+				<artifacts>
+					<artifact name="imageio-iff" type="jar" ext="jar" status="no" details="" size="33953" time="0" location="/home/piotr/.ivy2/cache/com.twelvemonkeys.imageio/imageio-iff/jars/imageio-iff-3.1.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-iff/3.1.2/imageio-iff-3.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twelvemonkeys.imageio" name="imageio-icns">
+			<revision name="3.1.2" status="release" pubdate="20150814123055" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="15">
+				<metadata-artifact status="successful" details="" size="992" time="132" location="/home/piotr/.ivy2/cache/com.twelvemonkeys.imageio/imageio-icns/ivy-3.1.2.xml" searched="true" original-local-location="/home/piotr/.ivy2/cache/com.twelvemonkeys.imageio/imageio-icns/ivy-3.1.2.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-icns/3.1.2/imageio-icns-3.1.2.pom"/>
+				<caller organisation="com.sksamuel.scrimage" name="scrimage-io-extra_2.11" conf="default, compile, runtime, master" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="2.1.0"/>
+				<artifacts>
+					<artifact name="imageio-icns" type="jar" ext="jar" status="no" details="" size="22555" time="0" location="/home/piotr/.ivy2/cache/com.twelvemonkeys.imageio/imageio-icns/jars/imageio-icns-3.1.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-icns/3.1.2/imageio-icns-3.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twelvemonkeys.imageio" name="imageio-bmp">
+			<revision name="3.1.2" status="release" pubdate="20150814123034" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="14">
+				<metadata-artifact status="successful" details="" size="1012" time="129" location="/home/piotr/.ivy2/cache/com.twelvemonkeys.imageio/imageio-bmp/ivy-3.1.2.xml" searched="true" original-local-location="/home/piotr/.ivy2/cache/com.twelvemonkeys.imageio/imageio-bmp/ivy-3.1.2.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-bmp/3.1.2/imageio-bmp-3.1.2.pom"/>
+				<caller organisation="com.sksamuel.scrimage" name="scrimage-io-extra_2.11" conf="default, compile, runtime, master" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="2.1.0"/>
+				<artifacts>
+					<artifact name="imageio-bmp" type="jar" ext="jar" status="no" details="" size="53745" time="0" location="/home/piotr/.ivy2/cache/com.twelvemonkeys.imageio/imageio-bmp/jars/imageio-bmp-3.1.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-bmp/3.1.2/imageio-bmp-3.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sksamuel.scrimage" name="scrimage-core_2.11">
+			<revision name="2.1.0" status="release" pubdate="20150825235345" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sksamuel/scrimage" downloaded="false" searched="false" default="false" conf="default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master" position="0">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4746" time="0" location="/home/piotr/.ivy2/cache/com.sksamuel.scrimage/scrimage-core_2.11/ivy-2.1.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/sksamuel/scrimage/scrimage-core_2.11/2.1.0/scrimage-core_2.11-2.1.0.pom"/>
+				<caller organisation="foobar" name="foobar" conf="compile, runtime-internal, runtime, optional" rev="2.1.0" rev-constraint-default="2.1.0" rev-constraint-dynamic="2.1.0" callerrev="0.0.1-SNAPSHOT"/>
+				<caller organisation="com.sksamuel.scrimage" name="scrimage-filters_2.11" conf="default, compile, runtime, master" rev="2.1.0" rev-constraint-default="2.1.0" rev-constraint-dynamic="2.1.0" callerrev="2.1.0"/>
+				<caller organisation="com.sksamuel.scrimage" name="scrimage-io-extra_2.11" conf="default, compile, runtime, master" rev="2.1.0" rev-constraint-default="2.1.0" rev-constraint-dynamic="2.1.0" callerrev="2.1.0"/>
+				<artifacts>
+					<artifact name="scrimage-core_2.11" type="jar" ext="jar" status="no" details="" size="578637" time="0" location="/home/piotr/.ivy2/cache/com.sksamuel.scrimage/scrimage-core_2.11/jars/scrimage-core_2.11-2.1.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/sksamuel/scrimage/scrimage-core_2.11/2.1.0/scrimage-core_2.11-2.1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ar.com.hjg" name="pngj">
+			<revision name="2.1.0" status="release" pubdate="20140506142225" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://pngj.googlecode.com/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="12">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3248" time="0" location="/home/piotr/.ivy2/cache/ar.com.hjg/pngj/ivy-2.1.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/ar/com/hjg/pngj/2.1.0/pngj-2.1.0.pom"/>
+				<caller organisation="com.sksamuel.scrimage" name="scrimage-core_2.11" conf="default, compile, runtime, master" rev="2.1.0" rev-constraint-default="2.1.0" rev-constraint-dynamic="2.1.0" callerrev="2.1.0"/>
+				<artifacts>
+					<artifact name="pngj" type="jar" ext="jar" status="no" details="" size="167436" time="0" location="/home/piotr/.ivy2/cache/ar.com.hjg/pngj/jars/pngj-2.1.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/ar/com/hjg/pngj/2.1.0/pngj-2.1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-io" name="commons-io">
+			<revision name="2.4" status="release" pubdate="20120613002206" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/io/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="11">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="8704" time="0" location="/home/piotr/.ivy2/cache/commons-io/commons-io/ivy-2.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.pom"/>
+				<caller organisation="com.sksamuel.scrimage" name="scrimage-filters_2.11" conf="default, compile, runtime, master" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="2.1.0"/>
+				<caller organisation="com.sksamuel.scrimage" name="scrimage-core_2.11" conf="default, compile, runtime, master" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="2.1.0"/>
+				<artifacts>
+					<artifact name="commons-io" type="jar" ext="jar" status="no" details="" size="185140" time="0" location="/home/piotr/.ivy2/cache/commons-io/commons-io/jars/commons-io-2.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.drewnoakes" name="metadata-extractor">
+			<revision name="2.8.1" status="release" pubdate="20150421002652" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://drewnoakes.com/code/exif/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="9">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3432" time="0" location="/home/piotr/.ivy2/cache/com.drewnoakes/metadata-extractor/ivy-2.8.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/drewnoakes/metadata-extractor/2.8.1/metadata-extractor-2.8.1.pom"/>
+				<caller organisation="com.sksamuel.scrimage" name="scrimage-core_2.11" conf="default, compile, runtime, master" rev="2.8.1" rev-constraint-default="2.8.1" rev-constraint-dynamic="2.8.1" callerrev="2.1.0"/>
+				<artifacts>
+					<artifact name="metadata-extractor" type="jar" ext="jar" status="no" details="" size="345447" time="0" location="/home/piotr/.ivy2/cache/com.drewnoakes/metadata-extractor/jars/metadata-extractor-2.8.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/drewnoakes/metadata-extractor/2.8.1/metadata-extractor-2.8.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.adobe.xmp" name="xmpcore">
+			<revision name="5.1.2" status="release" pubdate="20120703121504" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.adobe.com/devnet/xmp.html" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="10">
+				<license name="The BSD License" url="http://www.adobe.com/devnet/xmp/library/eula-xmp-library-java.html"/>
+				<metadata-artifact status="no" details="" size="2440" time="0" location="/home/piotr/.ivy2/cache/com.adobe.xmp/xmpcore/ivy-5.1.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/adobe/xmp/xmpcore/5.1.2/xmpcore-5.1.2.pom"/>
+				<caller organisation="com.drewnoakes" name="metadata-extractor" conf="compile, runtime" rev="5.1.2" rev-constraint-default="5.1.2" rev-constraint-dynamic="5.1.2" callerrev="2.8.1"/>
+				<artifacts>
+					<artifact name="xmpcore" type="jar" ext="jar" status="no" details="" size="117333" time="0" location="/home/piotr/.ivy2/cache/com.adobe.xmp/xmpcore/jars/xmpcore-5.1.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/adobe/xmp/xmpcore/5.1.2/xmpcore-5.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twelvemonkeys.imageio" name="imageio-jpeg">
+			<revision name="3.1.2" status="release" pubdate="20150814123145" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="7">
+				<metadata-artifact status="successful" details="" size="1180" time="123" location="/home/piotr/.ivy2/cache/com.twelvemonkeys.imageio/imageio-jpeg/ivy-3.1.2.xml" searched="true" original-local-location="/home/piotr/.ivy2/cache/com.twelvemonkeys.imageio/imageio-jpeg/ivy-3.1.2.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-jpeg/3.1.2/imageio-jpeg-3.1.2.pom"/>
+				<caller organisation="com.sksamuel.scrimage" name="scrimage-core_2.11" conf="default, compile, runtime, master" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="2.1.0"/>
+				<caller organisation="com.sksamuel.scrimage" name="scrimage-io-extra_2.11" conf="default, compile, runtime, master" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="2.1.0"/>
+				<artifacts>
+					<artifact name="imageio-jpeg" type="jar" ext="jar" status="no" details="" size="59004" time="0" location="/home/piotr/.ivy2/cache/com.twelvemonkeys.imageio/imageio-jpeg/jars/imageio-jpeg-3.1.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-jpeg/3.1.2/imageio-jpeg-3.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twelvemonkeys.imageio" name="imageio-metadata">
+			<revision name="3.1.2" status="release" pubdate="20150814122914" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="8">
+				<metadata-artifact status="successful" details="" size="983" time="135" location="/home/piotr/.ivy2/cache/com.twelvemonkeys.imageio/imageio-metadata/ivy-3.1.2.xml" searched="true" original-local-location="/home/piotr/.ivy2/cache/com.twelvemonkeys.imageio/imageio-metadata/ivy-3.1.2.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-metadata/3.1.2/imageio-metadata-3.1.2.pom"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-psd" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-jpeg" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-tiff" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<artifacts>
+					<artifact name="imageio-metadata" type="jar" ext="jar" status="no" details="" size="67555" time="0" location="/home/piotr/.ivy2/cache/com.twelvemonkeys.imageio/imageio-metadata/jars/imageio-metadata-3.1.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-metadata/3.1.2/imageio-metadata-3.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twelvemonkeys.imageio" name="imageio-core">
+			<revision name="3.1.2" status="release" pubdate="20150814122853" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="3">
+				<metadata-artifact status="successful" details="" size="1004" time="122" location="/home/piotr/.ivy2/cache/com.twelvemonkeys.imageio/imageio-core/ivy-3.1.2.xml" searched="true" original-local-location="/home/piotr/.ivy2/cache/com.twelvemonkeys.imageio/imageio-core/ivy-3.1.2.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-core/3.1.2/imageio-core-3.1.2.pom"/>
+				<caller organisation="com.sksamuel.scrimage" name="scrimage-core_2.11" conf="default, compile, runtime, master" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="2.1.0"/>
+				<artifacts>
+					<artifact name="imageio-core" type="jar" ext="jar" status="no" details="" size="58041" time="0" location="/home/piotr/.ivy2/cache/com.twelvemonkeys.imageio/imageio-core/jars/imageio-core-3.1.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-core/3.1.2/imageio-core-3.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twelvemonkeys.common" name="common-image">
+			<revision name="3.1.2" status="release" pubdate="20150814122756" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="6">
+				<metadata-artifact status="no" details="" size="4556" time="0" location="/home/piotr/.ivy2/cache/com.twelvemonkeys.common/common-image/ivy-3.1.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twelvemonkeys/common/common-image/3.1.2/common-image-3.1.2.pom"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-metadata" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-psd" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-jpeg" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-sgi" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-thumbsdb" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-pnm" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.sksamuel.scrimage" name="scrimage-core_2.11" conf="default, compile, runtime, master" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="2.1.0"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-pict" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-pdf" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-iff" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-tiff" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-pcx" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-core" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-bmp" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-icns" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-tga" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<artifacts>
+					<artifact name="common-image" type="jar" ext="jar" status="no" details="" size="82518" time="0" location="/home/piotr/.ivy2/cache/com.twelvemonkeys.common/common-image/jars/common-image-3.1.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twelvemonkeys/common/common-image/3.1.2/common-image-3.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twelvemonkeys.common" name="common-io">
+			<revision name="3.1.2" status="release" pubdate="20150814122736" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="5">
+				<metadata-artifact status="successful" details="" size="1025" time="132" location="/home/piotr/.ivy2/cache/com.twelvemonkeys.common/common-io/ivy-3.1.2.xml" searched="true" original-local-location="/home/piotr/.ivy2/cache/com.twelvemonkeys.common/common-io/ivy-3.1.2.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twelvemonkeys/common/common-io/3.1.2/common-io-3.1.2.pom"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-metadata" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-psd" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-jpeg" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-sgi" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-thumbsdb" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-pnm" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.sksamuel.scrimage" name="scrimage-core_2.11" conf="default, compile, runtime, master" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="2.1.0"/>
+				<caller organisation="com.twelvemonkeys.common" name="common-image" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-pict" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-pdf" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-iff" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-tiff" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-pcx" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-core" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-bmp" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-icns" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-tga" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<artifacts>
+					<artifact name="common-io" type="jar" ext="jar" status="no" details="" size="88582" time="0" location="/home/piotr/.ivy2/cache/com.twelvemonkeys.common/common-io/jars/common-io-3.1.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twelvemonkeys/common/common-io/3.1.2/common-io-3.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twelvemonkeys.common" name="common-lang">
+			<revision name="3.1.2" status="release" pubdate="20150814122713" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="4">
+				<metadata-artifact status="no" details="" size="4155" time="0" location="/home/piotr/.ivy2/cache/com.twelvemonkeys.common/common-lang/ivy-3.1.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twelvemonkeys/common/common-lang/3.1.2/common-lang-3.1.2.pom"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-metadata" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-psd" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-jpeg" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-sgi" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-thumbsdb" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-pnm" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.sksamuel.scrimage" name="scrimage-core_2.11" conf="default, compile, runtime, master" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="2.1.0"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-pict" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-pdf" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-iff" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-tiff" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-pcx" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-core" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-bmp" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-icns" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<caller organisation="com.twelvemonkeys.imageio" name="imageio-tga" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
+				<artifacts>
+					<artifact name="common-lang" type="jar" ext="jar" status="no" details="" size="117274" time="0" location="/home/piotr/.ivy2/cache/com.twelvemonkeys.common/common-lang/jars/common-lang-3.1.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twelvemonkeys/common/common-lang/3.1.2/common-lang-3.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.7" status="release" pubdate="20140404131248" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="2">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="4481" time="0" location="/home/piotr/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.pom"/>
+				<caller organisation="com.sksamuel.scrimage" name="scrimage-filters_2.11" conf="default, compile, runtime, master" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="2.1.0"/>
+				<caller organisation="com.sksamuel.scrimage" name="scrimage-core_2.11" conf="default, compile, runtime, master" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="2.1.0"/>
+				<caller organisation="com.sksamuel.scrimage" name="scrimage-io-extra_2.11" conf="default, compile, runtime, master" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="2.1.0"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="29257" time="0" location="/home/piotr/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.7" status="release" pubdate="20150622221702" resolver="public" artresolver="public" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.7/" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="1">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="successful" details="" size="1424" time="128" location="/home/piotr/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.7.xml" searched="true" original-local-location="/home/piotr/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.7.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom"/>
+				<caller organisation="com.sksamuel.scrimage" name="scrimage-filters_2.11" conf="default, compile, runtime, master" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="2.1.0"/>
+				<caller organisation="com.sksamuel.scrimage" name="scrimage-core_2.11" conf="default, compile, runtime, master" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="2.1.0"/>
+				<caller organisation="com.sksamuel.scrimage" name="scrimage-io-extra_2.11" conf="default, compile, runtime, master" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="2.1.0"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5745606" time="0" location="/home/piotr/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.mvallerie" name="sbt-scage-plugin">
+			<revision name="0.1" error="not found" extra-scalaVersion="2.11" extra-sbtVersion="0.13" downloaded="false" searched="false" conf="default(compile)" position="-1">
+				<caller organisation="foobar" name="foobar" conf="compile, runtime-internal, runtime, optional" rev="0.1" rev-constraint-default="0.1" rev-constraint-dynamic="0.1" callerrev="0.0.1-SNAPSHOT" extra-scalaVersion="2.11" extra-sbtVersion="0.13"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
