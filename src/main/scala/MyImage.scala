@@ -8,16 +8,17 @@ import javax.imageio.ImageIO
 
 class MyImage(val name: String){
 
-    val path = "resources/images/" + name
+    val path = "resources/images/" + name + ".png"
 
-    val image = ImageIO.read(new File(path))
+    val file = new File(path)
+    val image = ImageIO.read(file)
     var width = image.getWidth
     var height = image.getHeight
 
-    var scageImage = com.github.dunnololda.scage.ScageLib.image(name, width, height, 0, 0, width, height)
+    var scageImage = com.github.dunnololda.scage.ScageLib.image(name + ".png", width, height, 0, 0, width, height)
     var scrimageImage = Image(new java.io.File(path))
 
-    val resultName = name + "_result"
+    val resultName = name + "_result.png"
     val resultPath = "resources/images/" + resultName
 
     var resultFile = new File(resultPath)
@@ -71,6 +72,13 @@ class MyImage(val name: String){
 
      def reload = {
         scrimageImage.output(resultFile)
+        scageImageResult = com.github.dunnololda.scage.ScageLib.image(resultName, width, height, 0, 0, width, height)
+    }    
+
+    def save = {
+        resultFile = new java.io.File(resultPath)
+        scrimageImageResult = Image(resultFile)
+        scrimageImageResult.output(file)
         scageImageResult = com.github.dunnololda.scage.ScageLib.image(resultName, width, height, 0, 0, width, height)
     }    
 
