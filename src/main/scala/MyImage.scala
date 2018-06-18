@@ -25,20 +25,20 @@ class MyImage(val name: String){
     resultFile.createNewFile()
     scrimageImage.output(resultFile)
 
-var maxWidthToShow = 600
-var maxHeightToShow = 400
-var widthToShow = 600
-var heightToShow = 400
-if(width > height){
-  widthToShow = maxWidthToShow 
-val proportion = widthToShow.toFloat / width
-heightToShow = math.round(proportion * height)
-}
-else{
-  heightToShow = maxHeightToShow 
-val proportion = heightToShow.toFloat / height
-widthToShow = math.round(proportion * width)
-}
+    var maxWidthToShow = 600
+    var maxHeightToShow = 400
+    var widthToShow = 600
+    var heightToShow = 400
+    if(width > height){
+      widthToShow = maxWidthToShow 
+    val proportion = widthToShow.toFloat / width
+    heightToShow = math.round(proportion * height)
+    }
+    else{
+      heightToShow = maxHeightToShow 
+    val proportion = heightToShow.toFloat / height
+    widthToShow = math.round(proportion * width)
+    }
 
     var scageImageResult = com.github.dunnololda.scage.ScageLib.image(resultName, widthToShow, heightToShow, 0, 0, width, height)
     var scrimageImageResult = Image(new java.io.File(resultPath))

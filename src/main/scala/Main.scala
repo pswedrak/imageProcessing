@@ -84,23 +84,22 @@ clear{
 val xText = 700
     interface{
         print("OPTIONS", Vec(770,490), BLACK)
-        print("X - flipX", Vec(xText,430),  BLACK)
+        print("Right Key - next image", Vec(xText, 470), BLACK)
+        print("Left Key - previous image", Vec(xText, 450), BLACK)
+        print("S - save changes", Vec(xText, 430), BLACK)
+        print("R - reload", Vec(xText, 410), BLACK)
+        print("E - exit", Vec(xText, 390), BLACK)
+        print("X - flipX", Vec(xText, 350),  BLACK)
+        print("Y - flipY", Vec(xText, 330), BLACK)
 
-	print("FILTERS:", Vec(xText,400), BLACK)
-        print("Y - flipY", Vec(xText,380), BLACK)
-        print("B - blur filter", Vec(xText,360), BLACK)
-        print("M - bright filter", Vec(xText,340), BLACK)
-        print("R - reload", Vec(xText,320), BLACK)
-        print("F - frame", Vec(xText,300), BLACK)
-        print("C - chrome", Vec(xText,280), BLACK)
-        print("O - oil", Vec(xText,260), BLACK)
-        print("K - contour", Vec(xText,240), BLACK)
-        print("P - edge", Vec(xText,220), BLACK)
-
-        print("Right Key - next image", Vec(xText,190), BLACK)
-        print("Left Key - previous image", Vec(xText,170), BLACK)
-        print("S - save changes", Vec(xText,150), BLACK)
-        print("E - exit", Vec(xText,130), BLACK)
+	    print("FILTERS:", Vec(xText, 290), BLACK)
+        print("B - blur", Vec(xText, 270), BLACK)
+        print("M - bright", Vec(xText, 250), BLACK)
+        print("F - frame", Vec(xText, 230), BLACK)
+        print("C - chrome", Vec(xText, 210), BLACK)
+        print("O - oil", Vec(xText, 190), BLACK)
+        print("K - contour", Vec(xText, 170), BLACK)
+        print("P - edge", Vec(xText, 150), BLACK)
      }
 
 

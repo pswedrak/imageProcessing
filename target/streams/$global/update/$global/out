@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mUpdating {file:/home/piotr/Desktop/images3/imageProcessing/}imageprocessing...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/home/piotr/Desktop/imageProcessing/}imageprocessing...[0m
 [0m[[0mdebug[0m] [0m:: resolving dependencies :: foobar#foobar_2.10;0.0.1-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for foobar#foobar_2.10;0.0.1-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies foobar#foobar_2.10;0.0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@172e8c03[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7275fd5a[0m
 [0m[[0mdebug[0m] [0m		tried /home/piotr/.ivy2/local/org.scala-lang/scala-library/2.10.2/ivys/ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang#scala-library;2.10.2[0m
 [0m[[0mdebug[0m] [0m		tried file:/home/piotr/.sbt/preloaded/org.scala-lang/scala-library/2.10.2/ivys/ivy.xml[0m
@@ -21,7 +21,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.2/scala-library-2.10.2.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.2/scala-library-2.10.2.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.2/scala-library-2.10.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-library;2.10.2!scala-library.pom(pom.original) (158ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-library;2.10.2!scala-library.pom(pom.original) (147ms)[0m
 [0m[[0mdebug[0m] [0m		tried /home/piotr/.ivy2/local/org.scala-lang/scala-library/2.10.2/jars/scala-library.jar[0m
 [0m[[0mdebug[0m] [0m		tried file:/home/piotr/.sbt/preloaded/org.scala-lang/scala-library/2.10.2/jars/scala-library.jar[0m
 [0m[[0mdebug[0m] [0m		tried file:////home/piotr/.sbt/preloaded/org/scala-lang/scala-library/2.10.2/scala-library-2.10.2.jar[0m
@@ -83,7 +83,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.0.0/logback-classic-1.0.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.0.0/logback-classic-1.0.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.0.0/logback-classic-1.0.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] ch.qos.logback#logback-classic;1.0.0!logback-classic.pom(pom.original) (325ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] ch.qos.logback#logback-classic;1.0.0!logback-classic.pom(pom.original) (153ms)[0m
 [0m[[0minfo[0m] [0mResolving ch.qos.logback#logback-parent;1.0.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: ch.qos.logback#logback-parent;1.0.0 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: ch.qos.logback#logback-parent;1.0.0[0m
@@ -92,7 +92,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.dunnololda#cli_2.10.1;1.2->ch.qos.logback#logback-classic;1.0.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.0->ch.qos.logback#logback-core;1.0.0 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving ch.qos.logback#logback-core;1.0.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@185b0fc3[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@17e826b8[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: ch.qos.logback#logback-core;1.0.0[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: ch.qos.logback#logback-core;1.0.0[0m
 [0m[[0mdebug[0m] [0m	found ch.qos.logback#logback-core;1.0.0 in sbt-chain[0m
@@ -164,7 +164,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/lwjgl/lwjgl/lwjgl/2.8.2/lwjgl-2.8.2.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/lwjgl/lwjgl/lwjgl/2.8.2/lwjgl-2.8.2.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/lwjgl/lwjgl/lwjgl/2.8.2/lwjgl-2.8.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.lwjgl.lwjgl#lwjgl;2.8.2!lwjgl.pom(pom.original) (145ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.lwjgl.lwjgl#lwjgl;2.8.2!lwjgl.pom(pom.original) (126ms)[0m
 [0m[[0minfo[0m] [0mResolving org.lwjgl.lwjgl#parent;2.8.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.lwjgl.lwjgl#parent;2.8.2 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.lwjgl.lwjgl#parent;2.8.2[0m
@@ -173,7 +173,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.dunnololda.scage#scage;0.9.3-SNAPSHOT->org.lwjgl.lwjgl#lwjgl;2.8.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.lwjgl.lwjgl#lwjgl;2.8.2->org.lwjgl.lwjgl#lwjgl-platform;2.8.2 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.lwjgl.lwjgl#lwjgl-platform;2.8.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@36e0a09[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3f4d8a4a[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.lwjgl.lwjgl#lwjgl-platform;2.8.2[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.lwjgl.lwjgl#lwjgl-platform;2.8.2[0m
 [0m[[0mdebug[0m] [0m	found org.lwjgl.lwjgl#lwjgl-platform;2.8.2 in sbt-chain[0m
@@ -194,7 +194,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/net/java/jinput/jinput/2.0.5/jinput-2.0.5.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/net/java/jinput/jinput/2.0.5/jinput-2.0.5.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/net/java/jinput/jinput/2.0.5/jinput-2.0.5.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] net.java.jinput#jinput;2.0.5!jinput.pom(pom.original) (242ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] net.java.jinput#jinput;2.0.5!jinput.pom(pom.original) (127ms)[0m
 [0m[[0mdebug[0m] [0m	found net.java.jinput#jinput;2.0.5 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.lwjgl.lwjgl#lwjgl;2.8.2->net.java.jinput#jinput;2.0.5 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.java.jinput#jinput;2.0.5->net.java.jutils#jutils;1.0.0 [compile->master(*)][0m
@@ -214,7 +214,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.java.jinput#jinput;2.0.5->net.java.jutils#jutils;1.0.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.java.jinput#jinput;2.0.5->net.java.jinput#jinput-platform;2.0.5 [runtime->master(*)][0m
 [0m[[0minfo[0m] [0mResolving net.java.jinput#jinput-platform;2.0.5 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@37af7d00[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@16af1d12[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.java.jinput#jinput-platform;2.0.5[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: net.java.jinput#jinput-platform;2.0.5[0m
 [0m[[0mdebug[0m] [0m	found net.java.jinput#jinput-platform;2.0.5 in sbt-chain[0m
@@ -310,7 +310,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-library;2.10.5!scala-library.pom(pom.original) (145ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-library;2.10.5!scala-library.pom(pom.original) (206ms)[0m
 [0m[[0mdebug[0m] [0m		tried /home/piotr/.ivy2/local/org.scala-lang/scala-library/2.10.5/jars/scala-library.jar[0m
 [0m[[0mdebug[0m] [0m		tried file:/home/piotr/.sbt/preloaded/org.scala-lang/scala-library/2.10.5/jars/scala-library.jar[0m
 [0m[[0mdebug[0m] [0m		tried file:////home/piotr/.sbt/preloaded/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar[0m
@@ -351,7 +351,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-core/3.1.2/imageio-core-3.1.2.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-core/3.1.2/imageio-core-3.1.2.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-core/3.1.2/imageio-core-3.1.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.twelvemonkeys.imageio#imageio-core;3.1.2!imageio-core.pom(pom.original) (326ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.twelvemonkeys.imageio#imageio-core;3.1.2!imageio-core.pom(pom.original) (205ms)[0m
 [0m[[0minfo[0m] [0mResolving com.twelvemonkeys.imageio#imageio;3.1.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.twelvemonkeys.imageio#imageio;3.1.2 {}[0m
 [0m[[0mdebug[0m] [0m		tried /home/piotr/.ivy2/local/com.twelvemonkeys.imageio/imageio/3.1.2/ivys/ivy.xml[0m
@@ -367,7 +367,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio/3.1.2/imageio-3.1.2.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio/3.1.2/imageio-3.1.2.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio/3.1.2/imageio-3.1.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.twelvemonkeys.imageio#imageio;3.1.2!imageio.pom(pom.original) (157ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.twelvemonkeys.imageio#imageio;3.1.2!imageio.pom(pom.original) (233ms)[0m
 [0m[[0minfo[0m] [0mResolving com.twelvemonkeys#twelvemonkeys;3.1.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.twelvemonkeys#twelvemonkeys;3.1.2 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.twelvemonkeys#twelvemonkeys;3.1.2[0m
@@ -389,7 +389,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.sksamuel.scrimage#scrimage-core_2.10;2.1.0->com.twelvemonkeys.imageio#imageio-core;3.1.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.twelvemonkeys.imageio#imageio-core;3.1.2->com.twelvemonkeys.common#common-lang;3.1.2 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving com.twelvemonkeys.common#common-lang;3.1.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1edf9547[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4f6947c2[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.twelvemonkeys.common#common-lang;3.1.2[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: com.twelvemonkeys.common#common-lang;3.1.2[0m
 [0m[[0mdebug[0m] [0m	found com.twelvemonkeys.common#common-lang;3.1.2 in sbt-chain[0m
@@ -398,7 +398,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.twelvemonkeys.imageio#imageio-core;3.1.2->com.twelvemonkeys.common#common-lang;3.1.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.twelvemonkeys.imageio#imageio-core;3.1.2->com.twelvemonkeys.common#common-io;3.1.2 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving com.twelvemonkeys.common#common-io;3.1.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5672fe27[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6aac605b[0m
 [0m[[0mdebug[0m] [0m		tried /home/piotr/.ivy2/local/com.twelvemonkeys.common/common-io/3.1.2/ivys/ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for com.twelvemonkeys.common#common-io;3.1.2[0m
 [0m[[0mdebug[0m] [0m		tried file:/home/piotr/.sbt/preloaded/com.twelvemonkeys.common/common-io/3.1.2/ivys/ivy.xml[0m
@@ -412,7 +412,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/twelvemonkeys/common/common-io/3.1.2/common-io-3.1.2.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/twelvemonkeys/common/common-io/3.1.2/common-io-3.1.2.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/twelvemonkeys/common/common-io/3.1.2/common-io-3.1.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.twelvemonkeys.common#common-io;3.1.2!common-io.pom(pom.original) (145ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.twelvemonkeys.common#common-io;3.1.2!common-io.pom(pom.original) (130ms)[0m
 [0m[[0minfo[0m] [0mResolving com.twelvemonkeys.common#common;3.1.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.twelvemonkeys.common#common;3.1.2 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.twelvemonkeys.common#common;3.1.2[0m
@@ -458,7 +458,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-jpeg/3.1.2/imageio-jpeg-3.1.2.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-jpeg/3.1.2/imageio-jpeg-3.1.2.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-jpeg/3.1.2/imageio-jpeg-3.1.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.twelvemonkeys.imageio#imageio-jpeg;3.1.2!imageio-jpeg.pom(pom.original) (125ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.twelvemonkeys.imageio#imageio-jpeg;3.1.2!imageio-jpeg.pom(pom.original) (134ms)[0m
 [0m[[0minfo[0m] [0mResolving com.twelvemonkeys.imageio#imageio;3.1.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.twelvemonkeys.imageio#imageio;3.1.2 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.twelvemonkeys.imageio#imageio;3.1.2[0m
@@ -481,7 +481,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-metadata/3.1.2/imageio-metadata-3.1.2.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-metadata/3.1.2/imageio-metadata-3.1.2.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-metadata/3.1.2/imageio-metadata-3.1.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.twelvemonkeys.imageio#imageio-metadata;3.1.2!imageio-metadata.pom(pom.original) (167ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.twelvemonkeys.imageio#imageio-metadata;3.1.2!imageio-metadata.pom(pom.original) (165ms)[0m
 [0m[[0minfo[0m] [0mResolving com.twelvemonkeys.imageio#imageio;3.1.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.twelvemonkeys.imageio#imageio;3.1.2 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.twelvemonkeys.imageio#imageio;3.1.2[0m
@@ -609,7 +609,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-bmp/3.1.2/imageio-bmp-3.1.2.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-bmp/3.1.2/imageio-bmp-3.1.2.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-bmp/3.1.2/imageio-bmp-3.1.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.twelvemonkeys.imageio#imageio-bmp;3.1.2!imageio-bmp.pom(pom.original) (143ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.twelvemonkeys.imageio#imageio-bmp;3.1.2!imageio-bmp.pom(pom.original) (131ms)[0m
 [0m[[0minfo[0m] [0mResolving com.twelvemonkeys.imageio#imageio;3.1.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.twelvemonkeys.imageio#imageio;3.1.2 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.twelvemonkeys.imageio#imageio;3.1.2[0m
@@ -648,7 +648,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-icns/3.1.2/imageio-icns-3.1.2.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-icns/3.1.2/imageio-icns-3.1.2.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-icns/3.1.2/imageio-icns-3.1.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.twelvemonkeys.imageio#imageio-icns;3.1.2!imageio-icns.pom(pom.original) (137ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.twelvemonkeys.imageio#imageio-icns;3.1.2!imageio-icns.pom(pom.original) (178ms)[0m
 [0m[[0minfo[0m] [0mResolving com.twelvemonkeys.imageio#imageio;3.1.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.twelvemonkeys.imageio#imageio;3.1.2 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.twelvemonkeys.imageio#imageio;3.1.2[0m
@@ -685,7 +685,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-iff/3.1.2/imageio-iff-3.1.2.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-iff/3.1.2/imageio-iff-3.1.2.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-iff/3.1.2/imageio-iff-3.1.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.twelvemonkeys.imageio#imageio-iff;3.1.2!imageio-iff.pom(pom.original) (146ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.twelvemonkeys.imageio#imageio-iff;3.1.2!imageio-iff.pom(pom.original) (157ms)[0m
 [0m[[0minfo[0m] [0mResolving com.twelvemonkeys.imageio#imageio;3.1.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.twelvemonkeys.imageio#imageio;3.1.2 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.twelvemonkeys.imageio#imageio;3.1.2[0m
@@ -722,7 +722,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-pcx/3.1.2/imageio-pcx-3.1.2.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-pcx/3.1.2/imageio-pcx-3.1.2.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-pcx/3.1.2/imageio-pcx-3.1.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.twelvemonkeys.imageio#imageio-pcx;3.1.2!imageio-pcx.pom(pom.original) (225ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.twelvemonkeys.imageio#imageio-pcx;3.1.2!imageio-pcx.pom(pom.original) (138ms)[0m
 [0m[[0minfo[0m] [0mResolving com.twelvemonkeys.imageio#imageio;3.1.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.twelvemonkeys.imageio#imageio;3.1.2 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.twelvemonkeys.imageio#imageio;3.1.2[0m
@@ -759,7 +759,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-pict/3.1.2/imageio-pict-3.1.2.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-pict/3.1.2/imageio-pict-3.1.2.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-pict/3.1.2/imageio-pict-3.1.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.twelvemonkeys.imageio#imageio-pict;3.1.2!imageio-pict.pom(pom.original) (247ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.twelvemonkeys.imageio#imageio-pict;3.1.2!imageio-pict.pom(pom.original) (153ms)[0m
 [0m[[0minfo[0m] [0mResolving com.twelvemonkeys.imageio#imageio;3.1.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.twelvemonkeys.imageio#imageio;3.1.2 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.twelvemonkeys.imageio#imageio;3.1.2[0m
@@ -796,7 +796,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-pdf/3.1.2/imageio-pdf-3.1.2.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-pdf/3.1.2/imageio-pdf-3.1.2.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-pdf/3.1.2/imageio-pdf-3.1.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.twelvemonkeys.imageio#imageio-pdf;3.1.2!imageio-pdf.pom(pom.original) (130ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.twelvemonkeys.imageio#imageio-pdf;3.1.2!imageio-pdf.pom(pom.original) (134ms)[0m
 [0m[[0minfo[0m] [0mResolving com.twelvemonkeys.imageio#imageio;3.1.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.twelvemonkeys.imageio#imageio;3.1.2 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.twelvemonkeys.imageio#imageio;3.1.2[0m
@@ -833,7 +833,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-pnm/3.1.2/imageio-pnm-3.1.2.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-pnm/3.1.2/imageio-pnm-3.1.2.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-pnm/3.1.2/imageio-pnm-3.1.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.twelvemonkeys.imageio#imageio-pnm;3.1.2!imageio-pnm.pom(pom.original) (118ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.twelvemonkeys.imageio#imageio-pnm;3.1.2!imageio-pnm.pom(pom.original) (149ms)[0m
 [0m[[0minfo[0m] [0mResolving com.twelvemonkeys.imageio#imageio;3.1.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.twelvemonkeys.imageio#imageio;3.1.2 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.twelvemonkeys.imageio#imageio;3.1.2[0m
@@ -870,7 +870,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-psd/3.1.2/imageio-psd-3.1.2.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-psd/3.1.2/imageio-psd-3.1.2.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-psd/3.1.2/imageio-psd-3.1.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.twelvemonkeys.imageio#imageio-psd;3.1.2!imageio-psd.pom(pom.original) (131ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.twelvemonkeys.imageio#imageio-psd;3.1.2!imageio-psd.pom(pom.original) (138ms)[0m
 [0m[[0minfo[0m] [0mResolving com.twelvemonkeys.imageio#imageio;3.1.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.twelvemonkeys.imageio#imageio;3.1.2 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.twelvemonkeys.imageio#imageio;3.1.2[0m
@@ -911,7 +911,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-sgi/3.1.2/imageio-sgi-3.1.2.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-sgi/3.1.2/imageio-sgi-3.1.2.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-sgi/3.1.2/imageio-sgi-3.1.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.twelvemonkeys.imageio#imageio-sgi;3.1.2!imageio-sgi.pom(pom.original) (157ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.twelvemonkeys.imageio#imageio-sgi;3.1.2!imageio-sgi.pom(pom.original) (126ms)[0m
 [0m[[0minfo[0m] [0mResolving com.twelvemonkeys.imageio#imageio;3.1.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.twelvemonkeys.imageio#imageio;3.1.2 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.twelvemonkeys.imageio#imageio;3.1.2[0m
@@ -948,7 +948,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-tiff/3.1.2/imageio-tiff-3.1.2.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-tiff/3.1.2/imageio-tiff-3.1.2.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-tiff/3.1.2/imageio-tiff-3.1.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.twelvemonkeys.imageio#imageio-tiff;3.1.2!imageio-tiff.pom(pom.original) (129ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.twelvemonkeys.imageio#imageio-tiff;3.1.2!imageio-tiff.pom(pom.original) (160ms)[0m
 [0m[[0minfo[0m] [0mResolving com.twelvemonkeys.imageio#imageio;3.1.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.twelvemonkeys.imageio#imageio;3.1.2 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.twelvemonkeys.imageio#imageio;3.1.2[0m
@@ -989,7 +989,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-tga/3.1.2/imageio-tga-3.1.2.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-tga/3.1.2/imageio-tga-3.1.2.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-tga/3.1.2/imageio-tga-3.1.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.twelvemonkeys.imageio#imageio-tga;3.1.2!imageio-tga.pom(pom.original) (130ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.twelvemonkeys.imageio#imageio-tga;3.1.2!imageio-tga.pom(pom.original) (124ms)[0m
 [0m[[0minfo[0m] [0mResolving com.twelvemonkeys.imageio#imageio;3.1.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.twelvemonkeys.imageio#imageio;3.1.2 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.twelvemonkeys.imageio#imageio;3.1.2[0m
@@ -1026,7 +1026,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-thumbsdb/3.1.2/imageio-thumbsdb-3.1.2.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-thumbsdb/3.1.2/imageio-thumbsdb-3.1.2.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-thumbsdb/3.1.2/imageio-thumbsdb-3.1.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.twelvemonkeys.imageio#imageio-thumbsdb;3.1.2!imageio-thumbsdb.pom(pom.original) (124ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.twelvemonkeys.imageio#imageio-thumbsdb;3.1.2!imageio-thumbsdb.pom(pom.original) (127ms)[0m
 [0m[[0minfo[0m] [0mResolving com.twelvemonkeys.imageio#imageio;3.1.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.twelvemonkeys.imageio#imageio;3.1.2 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.twelvemonkeys.imageio#imageio;3.1.2[0m
@@ -3369,7 +3369,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.2/scala-reflect-2.10.2.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.2/scala-reflect-2.10.2.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.2/scala-reflect-2.10.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.10.2!scala-reflect.pom(pom.original) (134ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.10.2!scala-reflect.pom(pom.original) (162ms)[0m
 [0m[[0mdebug[0m] [0m		tried /home/piotr/.ivy2/local/org.scala-lang/scala-reflect/2.10.2/jars/scala-reflect.jar[0m
 [0m[[0mdebug[0m] [0m		tried file:/home/piotr/.sbt/preloaded/org.scala-lang/scala-reflect/2.10.2/jars/scala-reflect.jar[0m
 [0m[[0mdebug[0m] [0m		tried file:////home/piotr/.sbt/preloaded/org/scala-lang/scala-reflect/2.10.2/scala-reflect-2.10.2.jar[0m
@@ -3406,7 +3406,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies foobar#foobar_2.10;0.0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [scala-tool->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies foobar#foobar_2.10;0.0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [scala-tool->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies foobar#foobar_2.10;0.0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [scala-tool->optional(default)][0m
-[0m[[0mdebug[0m] [0m	resolved ivy file produced in /home/piotr/Desktop/images3/imageProcessing/target/resolution-cache/foobar/foobar_2.10/0.0.1-SNAPSHOT/resolved.xml.xml[0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in /home/piotr/Desktop/imageProcessing/target/resolution-cache/foobar/foobar_2.10/0.0.1-SNAPSHOT/resolved.xml.xml[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.2!scala-library.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.github.dunnololda.scage#scage;0.9.3-SNAPSHOT!scage.jar[0m
@@ -3458,19 +3458,19 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.2!scala-reflect.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.2!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 116476ms :: artifacts dl 51ms[0m
-[0m[[0mdebug[0m] [0m	report for foobar#foobar_2.10;0.0.1-SNAPSHOT compile produced in /home/piotr/Desktop/images3/imageProcessing/target/resolution-cache/reports/foobar-foobar_2.10-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for foobar#foobar_2.10;0.0.1-SNAPSHOT runtime produced in /home/piotr/Desktop/images3/imageProcessing/target/resolution-cache/reports/foobar-foobar_2.10-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for foobar#foobar_2.10;0.0.1-SNAPSHOT test produced in /home/piotr/Desktop/images3/imageProcessing/target/resolution-cache/reports/foobar-foobar_2.10-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for foobar#foobar_2.10;0.0.1-SNAPSHOT provided produced in /home/piotr/Desktop/images3/imageProcessing/target/resolution-cache/reports/foobar-foobar_2.10-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for foobar#foobar_2.10;0.0.1-SNAPSHOT optional produced in /home/piotr/Desktop/images3/imageProcessing/target/resolution-cache/reports/foobar-foobar_2.10-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for foobar#foobar_2.10;0.0.1-SNAPSHOT compile-internal produced in /home/piotr/Desktop/images3/imageProcessing/target/resolution-cache/reports/foobar-foobar_2.10-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for foobar#foobar_2.10;0.0.1-SNAPSHOT runtime-internal produced in /home/piotr/Desktop/images3/imageProcessing/target/resolution-cache/reports/foobar-foobar_2.10-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for foobar#foobar_2.10;0.0.1-SNAPSHOT test-internal produced in /home/piotr/Desktop/images3/imageProcessing/target/resolution-cache/reports/foobar-foobar_2.10-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for foobar#foobar_2.10;0.0.1-SNAPSHOT plugin produced in /home/piotr/Desktop/images3/imageProcessing/target/resolution-cache/reports/foobar-foobar_2.10-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for foobar#foobar_2.10;0.0.1-SNAPSHOT sources produced in /home/piotr/Desktop/images3/imageProcessing/target/resolution-cache/reports/foobar-foobar_2.10-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for foobar#foobar_2.10;0.0.1-SNAPSHOT docs produced in /home/piotr/Desktop/images3/imageProcessing/target/resolution-cache/reports/foobar-foobar_2.10-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for foobar#foobar_2.10;0.0.1-SNAPSHOT pom produced in /home/piotr/Desktop/images3/imageProcessing/target/resolution-cache/reports/foobar-foobar_2.10-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for foobar#foobar_2.10;0.0.1-SNAPSHOT scala-tool produced in /home/piotr/Desktop/images3/imageProcessing/target/resolution-cache/reports/foobar-foobar_2.10-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (116476ms resolve - 51ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 116069ms :: artifacts dl 26ms[0m
+[0m[[0mdebug[0m] [0m	report for foobar#foobar_2.10;0.0.1-SNAPSHOT compile produced in /home/piotr/Desktop/imageProcessing/target/resolution-cache/reports/foobar-foobar_2.10-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for foobar#foobar_2.10;0.0.1-SNAPSHOT runtime produced in /home/piotr/Desktop/imageProcessing/target/resolution-cache/reports/foobar-foobar_2.10-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for foobar#foobar_2.10;0.0.1-SNAPSHOT test produced in /home/piotr/Desktop/imageProcessing/target/resolution-cache/reports/foobar-foobar_2.10-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for foobar#foobar_2.10;0.0.1-SNAPSHOT provided produced in /home/piotr/Desktop/imageProcessing/target/resolution-cache/reports/foobar-foobar_2.10-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for foobar#foobar_2.10;0.0.1-SNAPSHOT optional produced in /home/piotr/Desktop/imageProcessing/target/resolution-cache/reports/foobar-foobar_2.10-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for foobar#foobar_2.10;0.0.1-SNAPSHOT compile-internal produced in /home/piotr/Desktop/imageProcessing/target/resolution-cache/reports/foobar-foobar_2.10-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for foobar#foobar_2.10;0.0.1-SNAPSHOT runtime-internal produced in /home/piotr/Desktop/imageProcessing/target/resolution-cache/reports/foobar-foobar_2.10-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for foobar#foobar_2.10;0.0.1-SNAPSHOT test-internal produced in /home/piotr/Desktop/imageProcessing/target/resolution-cache/reports/foobar-foobar_2.10-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for foobar#foobar_2.10;0.0.1-SNAPSHOT plugin produced in /home/piotr/Desktop/imageProcessing/target/resolution-cache/reports/foobar-foobar_2.10-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for foobar#foobar_2.10;0.0.1-SNAPSHOT sources produced in /home/piotr/Desktop/imageProcessing/target/resolution-cache/reports/foobar-foobar_2.10-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for foobar#foobar_2.10;0.0.1-SNAPSHOT docs produced in /home/piotr/Desktop/imageProcessing/target/resolution-cache/reports/foobar-foobar_2.10-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for foobar#foobar_2.10;0.0.1-SNAPSHOT pom produced in /home/piotr/Desktop/imageProcessing/target/resolution-cache/reports/foobar-foobar_2.10-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for foobar#foobar_2.10;0.0.1-SNAPSHOT scala-tool produced in /home/piotr/Desktop/imageProcessing/target/resolution-cache/reports/foobar-foobar_2.10-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (116069ms resolve - 26ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
