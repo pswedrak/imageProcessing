@@ -22,7 +22,7 @@ object Main extends ScageScreenApp("Scage App", 1000, 640){
 
 
     key(KEY_Y, onKeyDown = {
-      myImage.flipX
+      myImage.flipY
     })
 
     key(KEY_F, onKeyDown = {
@@ -45,12 +45,12 @@ object Main extends ScageScreenApp("Scage App", 1000, 640){
       myImage.reload
     })
 
-    key(KEY_N, onKeyDown = {
+    key(KEY_RIGHT, onKeyDown = {
       currentImage = (currentImage + 1) % album.imagesCounter
       myImage = album.images(currentImage)
     })
 
-    key(KEY_P, onKeyDown = {
+    key(KEY_LEFT, onKeyDown = {
       currentImage = (currentImage - 1) 
       if(currentImage < 0) currentImage = album.imagesCounter - 1
       myImage = album.images(currentImage)
@@ -79,8 +79,8 @@ clear{
         print("R - reload", Vec(680,350), RED)
         print("F - frame", Vec(680,330), RED)
         print("C - chrome", Vec(680,310), RED)
-        print("N - next image", Vec(680,290), RED)
-        print("P - previous image", Vec(680,270), RED)
+        print("Right Key - next image", Vec(680,290), RED)
+        print("Left Key - previous image", Vec(680,270), RED)
         print("S - save changes", Vec(680,250), RED)
         print("E - exit", Vec(680,230), RED)
      }
