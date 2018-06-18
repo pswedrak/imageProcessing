@@ -28,58 +28,61 @@ class MyImage(val name: String){
     var scageImageResult = com.github.dunnololda.scage.ScageLib.image(resultName, width, height, 0, 0, width, height)
     var scrimageImageResult = Image(new java.io.File(resultPath))
 
-    def flipX = {
+
+    def prepareImage() = {
         resultFile = new java.io.File(resultPath)
         scrimageImageResult = Image(resultFile)
-        scrimageImageResult.flipX.output(resultFile)
+    }
+
+    def imageToScageFormat() = {
         scageImageResult = com.github.dunnololda.scage.ScageLib.image(resultName, width, height, 0, 0, width, height)
+    }
+
+    def flipX = {
+        prepareImage()
+        scrimageImageResult.flipX.output(resultFile)
+        imageToScageFormat()
     }
 
     def flipY = {
-        resultFile = new java.io.File(resultPath)
-        scrimageImageResult = Image(resultFile)
+        prepareImage()
         scrimageImageResult.flipY.output(resultFile)
-        scageImageResult = com.github.dunnololda.scage.ScageLib.image(resultName, width, height, 0, 0, width, height)
+        imageToScageFormat()
     }
 
     def frame = {
-        resultFile = new java.io.File(resultPath)
-        scrimageImageResult = Image(resultFile)
+        prepareImage()
         scrimageImageResult.scaleTo(width - 20, height - 20).pad(10, Color.Black).output(resultFile)
-        scageImageResult = com.github.dunnololda.scage.ScageLib.image(resultName, width, height, 0, 0, width, height)
+        imageToScageFormat()
     }
 
     def blur = {
-        resultFile = new java.io.File(resultPath)
-        scrimageImageResult = Image(resultFile)
+        prepareImage()
         scrimageImageResult.filter(filter.BlurFilter).output(resultFile)
-        scageImageResult = com.github.dunnololda.scage.ScageLib.image(resultName, width, height, 0, 0, width, height)
+        imageToScageFormat()
     }
 
     def bright = {
-        resultFile = new java.io.File(resultPath)
-        scrimageImageResult = Image(resultFile)
+        prepareImage()
         scrimageImageResult.filter(BrightnessFilter(5.0)).output(resultFile)
-        scageImageResult = com.github.dunnololda.scage.ScageLib.image(resultName, width, height, 0, 0, width, height)
+        imageToScageFormat()
     }
 
      def chrome = {
-        resultFile = new java.io.File(resultPath)
-        scrimageImageResult = Image(resultFile)
+        prepareImage()
         scrimageImageResult.filter(filter.ChromeFilter(1.0f, 1.0f)).output(resultFile)
-        scageImageResult = com.github.dunnololda.scage.ScageLib.image(resultName, width, height, 0, 0, width, height)
+        imageToScageFormat()
     }     
 
      def reload = {
         scrimageImage.output(resultFile)
-        scageImageResult = com.github.dunnololda.scage.ScageLib.image(resultName, width, height, 0, 0, width, height)
+        imageToScageFormat()
     }    
 
     def save = {
-        resultFile = new java.io.File(resultPath)
-        scrimageImageResult = Image(resultFile)
+        prepareImage()
         scrimageImageResult.output(file)
-        scageImageResult = com.github.dunnololda.scage.ScageLib.image(resultName, width, height, 0, 0, width, height)
+        imageToScageFormat()
     }    
 
     

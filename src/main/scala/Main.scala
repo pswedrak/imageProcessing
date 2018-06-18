@@ -61,12 +61,14 @@ object Main extends ScageScreenApp("Scage App", 1000, 640){
     })
 
     key(KEY_E, onKeyDown = {
+      stopApp()
+    })
+
+clear{
       for (image <- album.images) {
         image.resultFile.delete
       }
-      
-      stopApp()
-    })
+}
 
     interface{
         print("options", Vec(770,450), RED)
