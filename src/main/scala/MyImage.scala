@@ -25,7 +25,22 @@ class MyImage(val name: String){
     resultFile.createNewFile()
     scrimageImage.output(resultFile)
 
-    var scageImageResult = com.github.dunnololda.scage.ScageLib.image(resultName, width, height, 0, 0, width, height)
+var maxWidthToShow = 600
+var maxHeightToShow = 400
+var widthToShow = 600
+var heightToShow = 400
+if(width > height){
+  widthToShow = maxWidthToShow 
+val proportion = widthToShow.toFloat / width
+heightToShow = math.round(proportion * height)
+}
+else{
+  heightToShow = maxHeightToShow 
+val proportion = heightToShow.toFloat / height
+widthToShow = math.round(proportion * width)
+}
+
+    var scageImageResult = com.github.dunnololda.scage.ScageLib.image(resultName, widthToShow, heightToShow, 0, 0, width, height)
     var scrimageImageResult = Image(new java.io.File(resultPath))
 
 
@@ -35,7 +50,7 @@ class MyImage(val name: String){
     }
 
     def imageToScageFormat() = {
-        scageImageResult = com.github.dunnololda.scage.ScageLib.image(resultName, width, height, 0, 0, width, height)
+        scageImageResult = com.github.dunnololda.scage.ScageLib.image(resultName, widthToShow, heightToShow, 0, 0, width, height)
     }
 
     def flipX = {
@@ -64,7 +79,7 @@ class MyImage(val name: String){
 
     def bright = {
         prepareImage()
-        scrimageImageResult.filter(BrightnessFilter(5.0)).output(resultFile)
+        scrimageImageResult.filter(BrightnessFilter(1.25)).output(resultFile)
         imageToScageFormat()
     }
 
@@ -73,6 +88,22 @@ class MyImage(val name: String){
         scrimageImageResult.filter(filter.ChromeFilter(1.0f, 1.0f)).output(resultFile)
         imageToScageFormat()
     }     
+     def oil = {
+        prepareImage()
+        scrimageImageResult.filter(filter.OilFilter()).output(resultFile)
+        imageToScageFormat()
+    } 
+
+     def contour = {
+        prepareImage()
+        scrimageImageResult.filter(filter.ContourFilter()).output(resultFile)
+        imageToScageFormat()
+    } 
+     def edge = {
+        prepareImage()
+        scrimageImageResult.filter(filter.EdgeFilter).output(resultFile)
+        imageToScageFormat()
+    }  
 
      def reload = {
         scrimageImage.output(resultFile)

@@ -41,6 +41,16 @@ object Main extends ScageScreenApp("Scage App", 1000, 640){
       myImage.chrome
     })
 
+    key(KEY_O, onKeyDown = {
+      myImage.oil
+    })
+    key(KEY_K, onKeyDown = {
+      myImage.contour
+    })
+    key(KEY_P, onKeyDown = {
+      myImage.edge
+    })
+
     key(KEY_R, onKeyDown = {
       myImage.reload
     })
@@ -69,20 +79,28 @@ clear{
         image.resultFile.delete
       }
 }
-
+    areaForMessage("message", Vec(700, 200), 16)
+    
+val xText = 700
     interface{
-        print("options", Vec(770,450), RED)
-        print("X - flipX", Vec(680,430), RED)
-        print("Y - flipY", Vec(680,410), RED)
-        print("B - blur filter", Vec(680,390), RED)
-        print("M - bright filter", Vec(680,370), RED)
-        print("R - reload", Vec(680,350), RED)
-        print("F - frame", Vec(680,330), RED)
-        print("C - chrome", Vec(680,310), RED)
-        print("Right Key - next image", Vec(680,290), RED)
-        print("Left Key - previous image", Vec(680,270), RED)
-        print("S - save changes", Vec(680,250), RED)
-        print("E - exit", Vec(680,230), RED)
+        print("OPTIONS", Vec(770,490), BLACK)
+        print("X - flipX", Vec(xText,430),  BLACK)
+
+	print("FILTERS:", Vec(xText,400), BLACK)
+        print("Y - flipY", Vec(xText,380), BLACK)
+        print("B - blur filter", Vec(xText,360), BLACK)
+        print("M - bright filter", Vec(xText,340), BLACK)
+        print("R - reload", Vec(xText,320), BLACK)
+        print("F - frame", Vec(xText,300), BLACK)
+        print("C - chrome", Vec(xText,280), BLACK)
+        print("O - oil", Vec(xText,260), BLACK)
+        print("K - contour", Vec(xText,240), BLACK)
+        print("P - edge", Vec(xText,220), BLACK)
+
+        print("Right Key - next image", Vec(xText,190), BLACK)
+        print("Left Key - previous image", Vec(xText,170), BLACK)
+        print("S - save changes", Vec(xText,150), BLACK)
+        print("E - exit", Vec(xText,130), BLACK)
      }
 
 
@@ -91,7 +109,7 @@ clear{
     }
 
     render{
-        drawDisplayList(myImage.scageImageResult, Vec(250,300))
+        drawDisplayList(myImage.scageImageResult, Vec(350,320))
     }
 
 
