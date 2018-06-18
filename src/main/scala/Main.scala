@@ -44,15 +44,25 @@ object Main extends ScageScreenApp("Scage App", 1000, 640){
     key(KEY_O, onKeyDown = {
       myImage.oil
     })
+
     key(KEY_K, onKeyDown = {
       myImage.contour
     })
-    key(KEY_P, onKeyDown = {
+
+    key(KEY_D, onKeyDown = {
       myImage.edge
     })
 
     key(KEY_R, onKeyDown = {
       myImage.reload
+    })
+
+    key(KEY_O, onKeyDown = {
+      myImage.rotateLeft
+    })
+
+    key(KEY_P, onKeyDown = {
+      myImage.rotateRight
     })
 
     key(KEY_RIGHT, onKeyDown = {
@@ -91,15 +101,17 @@ val xText = 700
         print("E - exit", Vec(xText, 390), BLACK)
         print("X - flipX", Vec(xText, 350),  BLACK)
         print("Y - flipY", Vec(xText, 330), BLACK)
+        print("O - rotate left", Vec(xText, 310),  BLACK)
+        print("P - rotate right", Vec(xText, 290), BLACK)
 
-	    print("FILTERS:", Vec(xText, 290), BLACK)
-        print("B - blur", Vec(xText, 270), BLACK)
-        print("M - bright", Vec(xText, 250), BLACK)
-        print("F - frame", Vec(xText, 230), BLACK)
-        print("C - chrome", Vec(xText, 210), BLACK)
-        print("O - oil", Vec(xText, 190), BLACK)
-        print("K - contour", Vec(xText, 170), BLACK)
-        print("P - edge", Vec(xText, 150), BLACK)
+	    print("FILTERS:", Vec(xText, 250), BLACK)
+        print("B - blur", Vec(xText, 230), BLACK)
+        print("M - bright", Vec(xText, 210), BLACK)
+        print("F - frame", Vec(xText, 190), BLACK)
+        print("C - chrome", Vec(xText, 170), BLACK)
+        print("O - oil", Vec(xText, 150), BLACK)
+        print("K - contour", Vec(xText, 130), BLACK)
+        print("D - edge", Vec(xText, 110), BLACK)
      }
 
 

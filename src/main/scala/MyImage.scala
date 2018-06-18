@@ -30,12 +30,12 @@ class MyImage(val name: String){
     var widthToShow = 600
     var heightToShow = 400
     if(width > height){
-      widthToShow = maxWidthToShow 
+      widthToShow = maxWidthToShow
     val proportion = widthToShow.toFloat / width
     heightToShow = math.round(proportion * height)
     }
     else{
-      heightToShow = maxHeightToShow 
+      heightToShow = maxHeightToShow
     val proportion = heightToShow.toFloat / height
     widthToShow = math.round(proportion * width)
     }
@@ -87,37 +87,46 @@ class MyImage(val name: String){
         prepareImage()
         scrimageImageResult.filter(filter.ChromeFilter(1.0f, 1.0f)).output(resultFile)
         imageToScageFormat()
-    }     
+    }
      def oil = {
         prepareImage()
         scrimageImageResult.filter(filter.OilFilter()).output(resultFile)
         imageToScageFormat()
-    } 
+    }
 
      def contour = {
         prepareImage()
         scrimageImageResult.filter(filter.ContourFilter()).output(resultFile)
         imageToScageFormat()
-    } 
+    }
      def edge = {
         prepareImage()
         scrimageImageResult.filter(filter.EdgeFilter).output(resultFile)
         imageToScageFormat()
-    }  
+    }
 
      def reload = {
         scrimageImage.output(resultFile)
         imageToScageFormat()
-    }    
+    }
+
+    def rotateLeft = {
+      prepareImage()
+      scrimageImageResult.rotateLeft.output(resultFile)
+      imageToScageFormat()
+    }
+
+    def rotateRight = {
+      prepareImage()
+      scrimageImageResult.rotateRight.output(resultFile)
+      imageToScageFormat()
+    }
 
     def save = {
         prepareImage()
         scrimageImageResult.output(file)
         imageToScageFormat()
-    }    
+    }
 
-    
+
 }
-
-
-        
