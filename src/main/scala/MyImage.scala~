@@ -29,16 +29,8 @@ class MyImage(val name: String){
     var maxHeightToShow = 500
     var widthToShow = 600
     var heightToShow = 600
-    if(width > height){
-      widthToShow = maxWidthToShow
-    val proportion = widthToShow.toFloat / width
-    heightToShow = math.round(proportion * height)
-    }
-    else{
-      heightToShow = maxHeightToShow
-    val proportion = heightToShow.toFloat / height
-    widthToShow = math.round(proportion * width)
-    }
+   
+    changeSizeToShow()
 
     def changeSizeToShow(){
 
@@ -121,6 +113,13 @@ class MyImage(val name: String){
     }
 
      def reload = {
+
+
+      image = ImageIO.read(file)
+      width = image.getWidth
+      height = image.getHeight
+  changeSizeToShow()
+
         scrimageImage.output(resultFile)
         imageToScageFormat()
     }
@@ -129,26 +128,11 @@ class MyImage(val name: String){
      prepareImage()
       scrimageImageResult.rotateLeft.output(resultFile)
 
-resultFile = new File(resultPath)
-    var image = ImageIO.read(resultFile)
-    var width = image.getWidth
-    var height = image.getHeight
+      image = ImageIO.read(resultFile)
+      width = image.getWidth
+      height = image.getHeight
 
-  var maxWidthToShow = 500
-    var maxHeightToShow = 500
-    var widthToShow = 600
-    var heightToShow = 600
-    if(width > height){
-      widthToShow = maxWidthToShow
-    val proportion = widthToShow.toFloat / width
-    heightToShow = math.round(proportion * height)
-    }
-    else{
-      heightToShow = maxHeightToShow
-    val proportion = heightToShow.toFloat / height
-    widthToShow = math.round(proportion * width)
-    }
-
+      changeSizeToShow()
      imageToScageFormat()
     }
 
