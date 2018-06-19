@@ -11,7 +11,7 @@ class MyImage(val name: String){
     val path = "resources/images/" + name + ".png"
 
     val file = new File(path)
-    val image = ImageIO.read(file)
+    var image = ImageIO.read(file)
     var width = image.getWidth
     var height = image.getHeight
 
@@ -25,20 +25,35 @@ class MyImage(val name: String){
     resultFile.createNewFile()
     scrimageImage.output(resultFile)
 
-var maxWidthToShow = 600
-var maxHeightToShow = 400
-var widthToShow = 600
-var heightToShow = 400
-if(width > height){
-  widthToShow = maxWidthToShow 
-val proportion = widthToShow.toFloat / width
-heightToShow = math.round(proportion * height)
-}
-else{
-  heightToShow = maxHeightToShow 
-val proportion = heightToShow.toFloat / height
-widthToShow = math.round(proportion * width)
-}
+    var maxWidthToShow = 500
+    var maxHeightToShow = 500
+    var widthToShow = 600
+    var heightToShow = 600
+    if(width > height){
+      widthToShow = maxWidthToShow
+    val proportion = widthToShow.toFloat / width
+    heightToShow = math.round(proportion * height)
+    }
+    else{
+      heightToShow = maxHeightToShow
+    val proportion = heightToShow.toFloat / height
+    widthToShow = math.round(proportion * width)
+    }
+
+    def changeSizeToShow(){
+
+    if(width > height){
+      widthToShow = maxWidthToShow
+    val proportion = widthToShow.toFloat / width
+    heightToShow = math.round(proportion * height)
+    }
+    else{
+      heightToShow = maxHeightToShow
+    val proportion = heightToShow.toFloat / height
+    widthToShow = math.round(proportion * width)
+    }
+
+    }
 
     var scageImageResult = com.github.dunnololda.scage.ScageLib.image(resultName, widthToShow, heightToShow, 0, 0, width, height)
     var scrimageImageResult = Image(new java.io.File(resultPath))
@@ -87,37 +102,58 @@ widthToShow = math.round(proportion * width)
         prepareImage()
         scrimageImageResult.filter(filter.ChromeFilter(1.0f, 1.0f)).output(resultFile)
         imageToScageFormat()
-    }     
+    }
      def oil = {
         prepareImage()
         scrimageImageResult.filter(filter.OilFilter()).output(resultFile)
         imageToScageFormat()
-    } 
+    }
 
      def contour = {
         prepareImage()
         scrimageImageResult.filter(filter.ContourFilter()).output(resultFile)
         imageToScageFormat()
-    } 
+    }
      def edge = {
         prepareImage()
         scrimageImageResult.filter(filter.EdgeFilter).output(resultFile)
         imageToScageFormat()
-    }  
+    }
 
      def reload = {
         scrimageImage.output(resultFile)
         imageToScageFormat()
-    }    
+    }
+
+    def rotateLeft = {
+     prepareImage()
+      scrimageImageResult.rotateLeft.output(resultFile)
+
+      image = ImageIO.read(resultFile)
+      width = image.getWidth
+      height = image.getHeight
+
+      changeSizeToShow()
+     imageToScageFormat()
+    }
+
+    def rotateRight = {
+      prepareImage()
+      scrimageImageResult.rotateRight.output(resultFile)
+
+      image = ImageIO.read(resultFile)
+      width = image.getWidth
+      height = image.getHeight
+
+      changeSizeToShow()
+      imageToScageFormat()
+    }
 
     def save = {
         prepareImage()
         scrimageImageResult.output(file)
         imageToScageFormat()
-    }    
+    }
 
-    
+
 }
-
-
-        

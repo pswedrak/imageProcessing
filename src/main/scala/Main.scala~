@@ -44,15 +44,25 @@ object Main extends ScageScreenApp("Scage App", 1000, 640){
     key(KEY_O, onKeyDown = {
       myImage.oil
     })
+
     key(KEY_K, onKeyDown = {
       myImage.contour
     })
-    key(KEY_P, onKeyDown = {
+
+    key(KEY_D, onKeyDown = {
       myImage.edge
     })
 
     key(KEY_R, onKeyDown = {
       myImage.reload
+    })
+
+    key(KEY_O, onKeyDown = {
+      myImage.rotateLeft
+    })
+
+    key(KEY_P, onKeyDown = {
+      myImage.rotateRight
     })
 
     key(KEY_RIGHT, onKeyDown = {
@@ -83,27 +93,25 @@ clear{
     
 val xText = 700
     interface{
- //areaForMessage("message", Vec(700, 200), 16)
-//addGlyphs("message2")
-import com.github.dunnololda.scage.support.ScageColor 
         print("OPTIONS", Vec(770,490), BLACK)
-        print("X - flipX", Vec(xText,430),  BLACK)
+        print("Right Key - next image", Vec(xText, 470), BLACK)
+        print("Left Key - previous image", Vec(xText, 450), BLACK)
+        print("S - save changes", Vec(xText, 430), BLACK)
+        print("R - reload", Vec(xText, 410), BLACK)
+        print("E - exit", Vec(xText, 390), BLACK)
+        print("X - flipX", Vec(xText, 350),  BLACK)
+        print("Y - flipY", Vec(xText, 330), BLACK)
+        print("O - rotate left", Vec(xText, 310),  BLACK)
+        print("P - rotate right", Vec(xText, 290), BLACK)
 
-	print("FILTERS:", Vec(xText,400), BLACK)
-        print("Y - flipY", Vec(xText,380), BLACK)
-        print("B - blur filter", Vec(xText,360), BLACK)
-        print("M - bright filter", Vec(xText,340), BLACK)
-        print("R - reload", Vec(xText,320), BLACK)
-        print("F - frame", Vec(xText,300), BLACK)
-        print("C - chrome", Vec(xText,280), BLACK)
-        print("O - oil", Vec(xText,260), BLACK)
-        print("K - contour", Vec(xText,240), BLACK)
-        print("P - edge", Vec(xText,220), BLACK)
-
-        print("Right Key - next image", Vec(xText,190), BLACK)
-        print("Left Key - previous image", Vec(xText,170), BLACK)
-        print("S - save changes", Vec(xText,150), BLACK)
-        print("E - exit", Vec(xText,130), BLACK)
+	    print("FILTERS:", Vec(xText, 250), BLACK)
+        print("B - blur", Vec(xText, 230), BLACK)
+        print("M - bright", Vec(xText, 210), BLACK)
+        print("F - frame", Vec(xText, 190), BLACK)
+        print("C - chrome", Vec(xText, 170), BLACK)
+        print("O - oil", Vec(xText, 150), BLACK)
+        print("K - contour", Vec(xText, 130), BLACK)
+        print("D - edge", Vec(xText, 110), BLACK)
      }
 
 

@@ -3,9 +3,11 @@
 [0m[[0mdebug[0m] [0m	(/home/joanna/edytor/imageProcessing/src/main/resources/resources,/home/joanna/edytor/imageProcessing/target/scala-2.10/classes/resources)[0m
 [0m[[0mdebug[0m] [0m	(/home/joanna/edytor/imageProcessing/src/main/resources/logback.xml,/home/joanna/edytor/imageProcessing/target/scala-2.10/classes/logback.xml)[0m
 [0m[[0mdebug[0m] [0m	(/home/joanna/edytor/imageProcessing/src/main/resources/maven.properties,/home/joanna/edytor/imageProcessing/target/scala-2.10/classes/maven.properties)[0m
+[0m[[0mdebug[0m] [0m	(/home/joanna/edytor/imageProcessing/src/main/resources/scageapp.properties~,/home/joanna/edytor/imageProcessing/target/scala-2.10/classes/scageapp.properties~)[0m
 [0m[[0mdebug[0m] [0m	(/home/joanna/edytor/imageProcessing/src/main/resources/scageapp.properties,/home/joanna/edytor/imageProcessing/target/scala-2.10/classes/scageapp.properties)[0m
 [0m[[0mdebug[0m] [0m	(/home/joanna/edytor/imageProcessing/src/main/resources/resources/strings,/home/joanna/edytor/imageProcessing/target/scala-2.10/classes/resources/strings)[0m
 [0m[[0mdebug[0m] [0m	(/home/joanna/edytor/imageProcessing/src/main/resources/resources/fonts,/home/joanna/edytor/imageProcessing/target/scala-2.10/classes/resources/fonts)[0m
+[0m[[0mdebug[0m] [0m	(/home/joanna/edytor/imageProcessing/src/main/resources/resources/images,/home/joanna/edytor/imageProcessing/target/scala-2.10/classes/resources/images)[0m
 [0m[[0mdebug[0m] [0m	(/home/joanna/edytor/imageProcessing/src/main/resources/resources/interfaces,/home/joanna/edytor/imageProcessing/target/scala-2.10/classes/resources/interfaces)[0m
 [0m[[0mdebug[0m] [0m	(/home/joanna/edytor/imageProcessing/src/main/resources/resources/strings/scageapp_strings_en.xml,/home/joanna/edytor/imageProcessing/target/scala-2.10/classes/resources/strings/scageapp_strings_en.xml)[0m
 [0m[[0mdebug[0m] [0m	(/home/joanna/edytor/imageProcessing/src/main/resources/resources/strings/scageapp_strings_ru.xml,/home/joanna/edytor/imageProcessing/target/scala-2.10/classes/resources/strings/scageapp_strings_ru.xml)[0m
@@ -14,5 +16,6 @@
 [0m[[0mdebug[0m] [0m	(/home/joanna/edytor/imageProcessing/src/main/resources/resources/fonts/DroidSans.ttf,/home/joanna/edytor/imageProcessing/target/scala-2.10/classes/resources/fonts/DroidSans.ttf)[0m
 [0m[[0mdebug[0m] [0m	(/home/joanna/edytor/imageProcessing/src/main/resources/resources/fonts/DejaVuLGCSans-ExtraLight.ttf,/home/joanna/edytor/imageProcessing/target/scala-2.10/classes/resources/fonts/DejaVuLGCSans-ExtraLight.ttf)[0m
 [0m[[0mdebug[0m] [0m	(/home/joanna/edytor/imageProcessing/src/main/resources/resources/fonts/FreeMono.ttf,/home/joanna/edytor/imageProcessing/target/scala-2.10/classes/resources/fonts/FreeMono.ttf)[0m
+[0m[[0mdebug[0m] [0m	(/home/joanna/edytor/imageProcessing/src/main/resources/resources/images/fraktal.png,/home/joanna/edytor/imageProcessing/target/scala-2.10/classes/resources/images/fraktal.png)[0m
 [0m[[0mdebug[0m] [0m	(/home/joanna/edytor/imageProcessing/src/main/resources/resources/interfaces/scageapp_interfaces_ru.xml,/home/joanna/edytor/imageProcessing/target/scala-2.10/classes/resources/interfaces/scageapp_interfaces_ru.xml)[0m
 [0m[[0mdebug[0m] [0m	(/home/joanna/edytor/imageProcessing/src/main/resources/resources/interfaces/scageapp_interfaces_en.xml,/home/joanna/edytor/imageProcessing/target/scala-2.10/classes/resources/interfaces/scageapp_interfaces_en.xml)[0m

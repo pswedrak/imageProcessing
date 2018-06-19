@@ -1,46 +1,44 @@
 [0m[[0minfo[0m] [0mRunning Main [0m
-[0m[[0minfo[0m] [0m10:14:27.573 [INFO ] loaded property file maven.properties from jar[0m
-[0m[[0minfo[0m] [0m10:14:28.204 [INFO ] AppProperties loaded[0m
-[0m[[0minfo[0m] [0m10:14:28.334 [DEBUG] read property render.ticks: 60[0m
-[0m[[0minfo[0m] [0m10:14:28.639 [DEBUG] parsed formula: 60 = 60.0[0m
-[0m[[0minfo[0m] [0m10:14:28.647 [WARN ] failed to find property render.frameskip[0m
-[0m[[0minfo[0m] [0m10:14:28.651 [INFO ] default value for property render.frameskip is 5[0m
-[0m[[0minfo[0m] [0m10:14:28.665 [WARN ] failed to find property render.framerate[0m
-[0m[[0minfo[0m] [0m10:14:28.691 [INFO ] default value for property render.framerate is 0[0m
-[0m[[0minfo[0m] [0m10:14:28.799 [INFO ] starting main screen Scage App...[0m
-[0m[[0minfo[0m] [0m10:14:28.873 [WARN ] failed to find property images.base[0m
-[0m[[0minfo[0m] [0m10:14:28.907 [INFO ] default value for property images.base is resources/images/[0m
-[0m[[0minfo[0m] [0m10:14:30.419 [WARN ] failed to find property render.vsync[0m
-[0m[[0minfo[0m] [0m10:14:30.423 [INFO ] default value for property render.vsync is false[0m
-[0m[[0minfo[0m] [0m10:14:32.927 [INFO ] initialized opengl system[0m
-[0m[[0minfo[0m] [0m10:14:32.938 [WARN ] failed to find property fonts.base[0m
-[0m[[0minfo[0m] [0m10:14:32.944 [INFO ] default value for property fonts.base is resources/fonts/[0m
-[0m[[0minfo[0m] [0m10:14:32.959 [WARN ] failed to find property font.file[0m
-[0m[[0minfo[0m] [0m10:14:32.970 [INFO ] default value for property font.file is DroidSans.ttf[0m
-[0m[[0minfo[0m] [0m10:14:32.981 [WARN ] failed to find property font.max_size[0m
-[0m[[0minfo[0m] [0m10:14:32.992 [INFO ] default value for property font.max_size is 18.0[0m
-[0m[[0minfo[0m] [0m10:14:33.001 [WARN ] failed to find property font.glyph.from[0m
-[0m[[0minfo[0m] [0m10:14:33.015 [INFO ] default value for property font.glyph.from is 1024[0m
-[0m[[0minfo[0m] [0m10:14:33.020 [WARN ] failed to find property font.glyph.to[0m
-[0m[[0minfo[0m] [0m10:14:33.042 [INFO ] default value for property font.glyph.to is 1279[0m
-[0m[[0minfo[0m] [0m10:14:33.115 [WARN ] failed to find property xml.lang[0m
-[0m[[0minfo[0m] [0m10:14:33.130 [INFO ] default value for property xml.lang is en[0m
-[0m[[0minfo[0m] [0m10:14:33.144 [WARN ] failed to find property xml.strings.base[0m
-[0m[[0minfo[0m] [0m10:14:33.161 [DEBUG] read property app.name: ${project.artifactId}[0m
-[0m[[0minfo[0m] [0m10:14:33.168 [INFO ] default value for property xml.strings.base is resources/strings/${project.artifactid}_strings[0m
-[0m[[0minfo[0m] [0m10:14:33.192 [WARN ] failed to find property xml.interfaces.base[0m
-[0m[[0minfo[0m] [0m10:14:33.204 [DEBUG] read property app.name: ${project.artifactId}[0m
-[0m[[0minfo[0m] [0m10:14:33.218 [INFO ] default value for property xml.interfaces.base is resources/interfaces/${project.artifactid}_interfaces[0m
-[0m[[0minfo[0m] [0m10:14:33.239 [DEBUG] parsing xml messages from file resources/strings/${project.artifactid}_strings_en.xml[0m
-[0m[[0minfo[0m] [0m10:14:33.317 [INFO ] default value for string id renderer.loading is Loading...[0m
-[0m[[0minfo[0m] [0m10:14:33.803 [DEBUG] loading font resources/fonts/DroidSans.ttf...[0m
-[0m[[0minfo[0m] [0m10:14:39.391 [DEBUG] read property screen.scagelogo: false[0m
-[0m[[0minfo[0m] [0m10:14:39.397 [WARN ] failed to find property screen.splash[0m
-[0m[[0minfo[0m] [0m10:14:39.400 [INFO ] default value for property screen.splash is empty string[0m
-[0m[[0minfo[0m] [0m10:14:39.403 [INFO ] default value for string id app.welcome is empty string[0m
-[0m[[0minfo[0m] [0m10:14:39.477 [DEBUG] read property images.base: resources/images/[0m
-[0m[[0minfo[0m] [0mTue Jun 19 10:14:40 CEST 2018 INFO:Use Java PNG Loader = true[0m
-[0m[[0minfo[0m] [0mTue Jun 19 10:14:43 CEST 2018 WARN:class org.newdawn.slick.opengl.PNGImageData failed to read the data[0m
+[0m[[0minfo[0m] [0m11:46:32.372 [INFO ] loaded property file maven.properties from jar[0m
+[0m[[0minfo[0m] [0m11:46:32.971 [INFO ] AppProperties loaded[0m
+[0m[[0minfo[0m] [0m11:46:33.250 [DEBUG] read property render.ticks: 60[0m
+[0m[[0minfo[0m] [0m11:46:33.574 [DEBUG] parsed formula: 60 = 60.0[0m
+[0m[[0minfo[0m] [0m11:46:33.579 [WARN ] failed to find property render.frameskip[0m
+[0m[[0minfo[0m] [0m11:46:33.588 [INFO ] default value for property render.frameskip is 5[0m
+[0m[[0minfo[0m] [0m11:46:33.590 [WARN ] failed to find property render.framerate[0m
+[0m[[0minfo[0m] [0m11:46:33.602 [INFO ] default value for property render.framerate is 0[0m
+[0m[[0minfo[0m] [0m11:46:33.649 [INFO ] starting main screen Scage App...[0m
+[0m[[0minfo[0m] [0m11:46:33.713 [WARN ] failed to find property images.base[0m
+[0m[[0minfo[0m] [0m11:46:33.718 [INFO ] default value for property images.base is resources/images/[0m
+[0m[[0minfo[0m] [0m11:46:34.996 [WARN ] failed to find property render.vsync[0m
+[0m[[0minfo[0m] [0m11:46:35.004 [INFO ] default value for property render.vsync is false[0m
+[0m[[0minfo[0m] [0m11:46:37.535 [INFO ] initialized opengl system[0m
+[0m[[0minfo[0m] [0m11:46:37.568 [WARN ] failed to find property fonts.base[0m
+[0m[[0minfo[0m] [0m11:46:37.575 [INFO ] default value for property fonts.base is resources/fonts/[0m
+[0m[[0minfo[0m] [0m11:46:37.577 [WARN ] failed to find property font.file[0m
+[0m[[0minfo[0m] [0m11:46:37.594 [INFO ] default value for property font.file is DroidSans.ttf[0m
+[0m[[0minfo[0m] [0m11:46:37.596 [WARN ] failed to find property font.max_size[0m
+[0m[[0minfo[0m] [0m11:46:37.603 [INFO ] default value for property font.max_size is 18.0[0m
+[0m[[0minfo[0m] [0m11:46:37.616 [WARN ] failed to find property font.glyph.from[0m
+[0m[[0minfo[0m] [0m11:46:37.617 [INFO ] default value for property font.glyph.from is 1024[0m
+[0m[[0minfo[0m] [0m11:46:37.618 [WARN ] failed to find property font.glyph.to[0m
+[0m[[0minfo[0m] [0m11:46:37.626 [INFO ] default value for property font.glyph.to is 1279[0m
+[0m[[0minfo[0m] [0m11:46:37.656 [WARN ] failed to find property xml.lang[0m
+[0m[[0minfo[0m] [0m11:46:37.675 [INFO ] default value for property xml.lang is en[0m
+[0m[[0minfo[0m] [0m11:46:37.681 [WARN ] failed to find property xml.strings.base[0m
+[0m[[0minfo[0m] [0m11:46:37.700 [DEBUG] read property app.name: ${project.artifactId}[0m
+[0m[[0minfo[0m] [0m11:46:37.717 [INFO ] default value for property xml.strings.base is resources/strings/${project.artifactid}_strings[0m
+[0m[[0minfo[0m] [0m11:46:37.724 [WARN ] failed to find property xml.interfaces.base[0m
+[0m[[0minfo[0m] [0m11:46:37.738 [DEBUG] read property app.name: ${project.artifactId}[0m
+[0m[[0minfo[0m] [0m11:46:37.747 [INFO ] default value for property xml.interfaces.base is resources/interfaces/${project.artifactid}_interfaces[0m
+[0m[[0minfo[0m] [0m11:46:37.752 [DEBUG] parsing xml messages from file resources/strings/${project.artifactid}_strings_en.xml[0m
+[0m[[0minfo[0m] [0m11:46:37.857 [INFO ] default value for string id renderer.loading is Loading...[0m
+[0m[[0minfo[0m] [0m11:46:38.125 [DEBUG] loading font resources/fonts/DroidSans.ttf...[0m
+[0m[[0minfo[0m] [0m11:46:44.016 [DEBUG] read property screen.scagelogo: false[0m
+[0m[[0minfo[0m] [0m11:46:44.018 [DEBUG] read property screen.splash: resources/images/fraktal.png[0m
+[0m[[0minfo[0m] [0mTue Jun 19 11:46:44 CEST 2018 INFO:Use Java PNG Loader = true[0m
+[0m[[0minfo[0m] [0m11:46:46.259 [DEBUG] read property images.base: resources/images/[0m
+[0m[[0minfo[0m] [0mTue Jun 19 11:46:47 CEST 2018 WARN:class org.newdawn.slick.opengl.PNGImageData failed to read the data[0m
 [0m[[0minfo[0m] [0mjava.lang.UnsupportedOperationException: Unsupported format for this image[0m
 [0m[[0minfo[0m] [0m	at org.newdawn.slick.opengl.PNGDecoder.decode(PNGDecoder.java:272)[0m
 [0m[[0minfo[0m] [0m	at org.newdawn.slick.opengl.PNGImageData.loadImage(PNGImageData.java:97)[0m
@@ -75,47 +73,12 @@
 [0m[[0minfo[0m] [0m	at com.github.dunnololda.cli.Cli$class.main(Cli.scala:137)[0m
 [0m[[0minfo[0m] [0m	at com.github.dunnololda.scage.ScreenApp.main(ScageScreen.scala:62)[0m
 [0m[[0minfo[0m] [0m	at Main.main(Main.scala)[0m
-[0m[[0minfo[0m] [0mTue Jun 19 10:14:46 CEST 2018 WARN:class org.newdawn.slick.opengl.PNGImageData failed to read the data[0m
-[0m[[0minfo[0m] [0mjava.lang.UnsupportedOperationException: Unsupported format for this image[0m
-[0m[[0minfo[0m] [0m	at org.newdawn.slick.opengl.PNGDecoder.decode(PNGDecoder.java:272)[0m
-[0m[[0minfo[0m] [0m	at org.newdawn.slick.opengl.PNGImageData.loadImage(PNGImageData.java:97)[0m
-[0m[[0minfo[0m] [0m	at org.newdawn.slick.opengl.CompositeImageData.loadImage(CompositeImageData.java:62)[0m
-[0m[[0minfo[0m] [0m	at org.newdawn.slick.opengl.CompositeImageData.loadImage(CompositeImageData.java:43)[0m
-[0m[[0minfo[0m] [0m	at org.newdawn.slick.opengl.InternalTextureLoader.getTexture(InternalTextureLoader.java:292)[0m
-[0m[[0minfo[0m] [0m	at org.newdawn.slick.opengl.InternalTextureLoader.getTexture(InternalTextureLoader.java:254)[0m
-[0m[[0minfo[0m] [0m	at org.newdawn.slick.opengl.InternalTextureLoader.getTexture(InternalTextureLoader.java:200)[0m
-[0m[[0minfo[0m] [0m	at org.newdawn.slick.opengl.TextureLoader.getTexture(TextureLoader.java:64)[0m
-[0m[[0minfo[0m] [0m	at org.newdawn.slick.opengl.TextureLoader.getTexture(TextureLoader.java:24)[0m
-[0m[[0minfo[0m] [0m	at com.github.dunnololda.scage.handlers.RendererLib$class.getTexture(Renderer.scala:336)[0m
-[0m[[0minfo[0m] [0m	at com.github.dunnololda.scage.ScageLib$.getTexture(ScageLib.scala:10)[0m
-[0m[[0minfo[0m] [0m	at com.github.dunnololda.scage.handlers.RendererLib$class.getTexture(Renderer.scala:339)[0m
-[0m[[0minfo[0m] [0m	at com.github.dunnololda.scage.ScageLib$.getTexture(ScageLib.scala:10)[0m
-[0m[[0minfo[0m] [0m	at com.github.dunnololda.scage.handlers.RendererLib$class.image(Renderer.scala:371)[0m
-[0m[[0minfo[0m] [0m	at com.github.dunnololda.scage.ScageLib$.image(ScageLib.scala:10)[0m
-[0m[[0minfo[0m] [0m	at MyImage.<init>(MyImage.scala:18)[0m
-[0m[[0minfo[0m] [0m	at ImageAlbum$$anonfun$1.apply(ImageAlbum.scala:18)[0m
-[0m[[0minfo[0m] [0m	at ImageAlbum$$anonfun$1.apply(ImageAlbum.scala:15)[0m
-[0m[[0minfo[0m] [0m	at scala.collection.IndexedSeqOptimized$class.foreach(IndexedSeqOptimized.scala:33)[0m
-[0m[[0minfo[0m] [0m	at scala.collection.mutable.ArrayOps$ofRef.foreach(ArrayOps.scala:108)[0m
-[0m[[0minfo[0m] [0m	at ImageAlbum.<init>(ImageAlbum.scala:15)[0m
-[0m[[0minfo[0m] [0m	at Main$delayedInit$body.apply(Main.scala:14)[0m
-[0m[[0minfo[0m] [0m	at scala.Function0$class.apply$mcV$sp(Function0.scala:40)[0m
-[0m[[0minfo[0m] [0m	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)[0m
-[0m[[0minfo[0m] [0m	at scala.App$$anonfun$main$1.apply(App.scala:71)[0m
-[0m[[0minfo[0m] [0m	at scala.App$$anonfun$main$1.apply(App.scala:71)[0m
-[0m[[0minfo[0m] [0m	at scala.collection.immutable.List.foreach(List.scala:318)[0m
-[0m[[0minfo[0m] [0m	at scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)[0m
-[0m[[0minfo[0m] [0m	at scala.App$class.main(App.scala:71)[0m
-[0m[[0minfo[0m] [0m	at com.github.dunnololda.scage.ScreenApp.com$github$dunnololda$cli$Cli$$super$main(ScageScreen.scala:34)[0m
-[0m[[0minfo[0m] [0m	at com.github.dunnololda.cli.Cli$class.main(Cli.scala:137)[0m
-[0m[[0minfo[0m] [0m	at com.github.dunnololda.scage.ScreenApp.main(ScageScreen.scala:62)[0m
-[0m[[0minfo[0m] [0m	at Main.main(Main.scala)[0m
-[0m[[0minfo[0m] [0m10:14:51.301 [INFO ] Scage App: preinit[0m
-[0m[[0minfo[0m] [0m10:14:51.309 [INFO ] Scage App: init[0m
-[0m[[0minfo[0m] [0m10:14:51.354 [INFO ] inits: 0; actions: 1; clears: 1[0m
-[0m[[0minfo[0m] [0m10:14:51.367 [INFO ] Scage App: run[0m
-[0m[[0minfo[0m] [0m10:15:09.139 [INFO ] default value for string id renderer.exiting is Exiting...[0m
-[0m[[0minfo[0m] [0m10:15:10.188 [INFO ] Scage App: clear[0m
-[0m[[0minfo[0m] [0m10:15:10.197 [INFO ] Scage App: dispose[0m
-[0m[[0minfo[0m] [0m10:15:10.281 [INFO ] destroyed opengl system[0m
-[0m[[0minfo[0m] [0m10:15:10.283 [INFO ] Scage App was stopped[0m
+[0m[[0minfo[0m] [0m11:47:03.788 [INFO ] Scage App: preinit[0m
+[0m[[0minfo[0m] [0m11:47:03.796 [INFO ] Scage App: init[0m
+[0m[[0minfo[0m] [0m11:47:03.807 [INFO ] inits: 0; actions: 1; clears: 1[0m
+[0m[[0minfo[0m] [0m11:47:03.821 [INFO ] Scage App: run[0m
+[0m[[0minfo[0m] [0m11:48:43.428 [INFO ] default value for string id renderer.exiting is Exiting...[0m
+[0m[[0minfo[0m] [0m11:48:44.455 [INFO ] Scage App: clear[0m
+[0m[[0minfo[0m] [0m11:48:44.461 [INFO ] Scage App: dispose[0m
+[0m[[0minfo[0m] [0m11:48:44.504 [INFO ] destroyed opengl system[0m
+[0m[[0minfo[0m] [0m11:48:44.508 [INFO ] Scage App was stopped[0m
