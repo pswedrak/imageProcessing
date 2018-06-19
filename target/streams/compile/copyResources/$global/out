@@ -1,4 +1,5 @@
 [0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/home/joanna/edytor/imageProcessing/src/main/resources/maven.properties~,/home/joanna/edytor/imageProcessing/target/scala-2.10/classes/maven.properties~)[0m
 [0m[[0mdebug[0m] [0m	(/home/joanna/edytor/imageProcessing/src/main/resources/resources,/home/joanna/edytor/imageProcessing/target/scala-2.10/classes/resources)[0m
 [0m[[0mdebug[0m] [0m	(/home/joanna/edytor/imageProcessing/src/main/resources/logback.xml,/home/joanna/edytor/imageProcessing/target/scala-2.10/classes/logback.xml)[0m
 [0m[[0mdebug[0m] [0m	(/home/joanna/edytor/imageProcessing/src/main/resources/maven.properties,/home/joanna/edytor/imageProcessing/target/scala-2.10/classes/maven.properties)[0m

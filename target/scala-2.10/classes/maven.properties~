@@ -1,5 +1,4 @@
 app.name = ${project.artifactId}
 app.version = ${project.version}
 render.ticks = 60
-screen.scagelogo = false
-sreen.splash = "/home/joanna/Pobrane/fraktal.png"
+
